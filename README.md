@@ -33,7 +33,7 @@ and handles the communication between various processes.
 ROS community is an active open-source organisation sharing knowledge,
 algorithms, code packages from any developer. It allows us to _overlay_ and
 experiment a package from one developer on top of our developed packages. These
-resource include:
+resources include:
 
 * Distributions
 * Repositories
