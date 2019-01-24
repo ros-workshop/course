@@ -28,6 +28,8 @@ Provides information about the how the various components in a ROS project come
 together to perform an action. Primarily, this level tells us how ROS sets up
 and handles the communication between various processes.
 
+![ROS Computational Graph](./docs/images/ROS_Computational_Graph.png)
+
 * Useful Commands : roscore, rosnode, rostopic, rosrun, rosservice, rosmsg, rosbag
 
 ### Community
