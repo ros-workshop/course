@@ -14,4 +14,11 @@ print("hello world!")
 ```
 
 </p>
+
+<details><summary>Can we recurse hints?</summary>
+<p>
+
+Boom! Yes! 
+</details>
+
 </details>
