@@ -15,7 +15,7 @@
 + Writing a Publisher and Subscriber Node
 + roslaunch
 
-<details><summary>Strech Your Learning</summary>
+<details><summary>Additional Learning</summary>
 
 + rqt_publisher
 + rqt_robot_steering
@@ -31,7 +31,7 @@
 + Running ROS Across Multiple Machines
 + Launch Files for Large Projects
 
-<details><summary>Strech Your Learning</summary>
+<details><summary>Additional Learning</summary>
 
 + Create a URDF
 + Visualise a Robot in Rviz
@@ -40,54 +40,54 @@
 
 ## Week 2
 
-### [Sensor Integration and URDFs](https://github.com/ros-workshop/sensor-integration.git)
+### Monday: [Sensor Integration and URDFs](https://github.com/ros-workshop/sensor-integration.git)
 **What you will learn about:**
 + Creating a URDF
 + Visualising Your Robot
 + Fixing a Broken URDF
 + Adding Sensor to a Robot
 
-<details><summary>Strech Your Learning</summary>
+<details><summary>Additional Learning</summary>
   
 + Integrate Two Robots Together
 
 </details>
 
-### [Navigation]
+### Tuesday: [SLAM & Navigation](https://github.com/ros-workshop/slam-navigation)
 **What you will learn about:**
 + Creating a Map Using a Lidar
-+ SLAM
++ Simultaneous Localisation and Mapping (SLAM)
 + Using move_base for navigation
 
-<details><summary>Strech Your Learning</summary>
+<details><summary>Additional Learning</summary>
   
 + Find a Object by Navigating Around a Map
 
 </details>
 
-### [Computer Vision](https://github.com/ros-workshop/perception.git)
+### Wednesday: [Computer Vision](https://github.com/ros-workshop/perception.git)
 **What you will learn about:**
 + Using an Camera to Detect Apriltags 
 + Using a Real Camera with ROS
 
-<details><summary>Strech Your Learning</summary>
+<details><summary>Additional Learning</summary>
   
 + Fuse and Lidar and Camera/DNN data for Person Detection and localisation
 
 </details>
 
-### [Manipulation](https://github.com/ros-workshop/manipulation.git)
+### Thursday: [Manipulation](https://github.com/ros-workshop/manipulation.git)
 **What you will learn about:**
 + Creating a Moveit Configuration Package 
 + Moving Your Robot in Rviz
 + Using the Moveit Class in a Node
 
-<details><summary>Strech Your Learning</summary>
+<details><summary>Additional Learning</summary>
   
 + Create a OctoMap Using a Depth Camera
 </details>
 
-### [Mobile Manipulation]
+### Friday: [Mobility Plus Manipulation]
 **Task:**
 
 Navigate in a Gazebo World to Find an Collect as Many Objects as You Can
