@@ -65,14 +65,14 @@
 
 </details>
 
-### [Computer Vision]
+### [Computer Vision](https://github.com/ros-workshop/perception.git)
 **What you will learn about:**
-+ Using an RGB Image to Detect Apriltags 
++ Using an Camera to Detect Apriltags 
 + Using a Real Camera with ROS
 
 <details><summary>Strech Your Learning</summary>
   
-+ Fuse and Lidar and Camera data for Person Detection
++ Fuse and Lidar and Camera/DNN data for Person Detection and localisation
 
 </details>
 
