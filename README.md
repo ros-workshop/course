@@ -1,24 +1,38 @@
-# course
+# Course
 
-## Testing collapsible markdown 
+## Week 1 
 
-<details><summary>Click for a hint</summary>
-<p>
+### [Beginners Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
-Boom!
+**What you will learn about:**
++ ROS File System
++ Creating a Package
++ Nodes and Topics
++ Bag Files
++ rqt_graph
++ tf and tf Trees
++ Parameters and Services
++ Writting a Publisher and Subscriber Node
++ roslaunch
 
-#### yes, even hidden code blocks!
+<details><summary>Things You Should Try</summary>
 
-```python
-print("hello world!")
-```
++ rqt_publisher
++ rqt_robot_steering
++ Rviz
++ Publish and Subscribe in the Same Node
 
-</p>
-
-<details><summary>Can we recurse hints?</summary>
-<p>
-
-Boom! Yes! 
 </details>
 
-</details>
+### [Intermediate Tutorials](http://wiki.ros.org/ROS/Tutorials)
+**What you will learn about:**
++ Creating a Package by Hand
++ Managing Dependencies
++ Running ROS across multiple machines
++ Launch Files for Large Projects
+
+<details><summary>Things You Should Try</summary>
+
++ Creating a URDF
++ Visualising a Robot in Rviz
++ Visualising a Robot in Gazebo
