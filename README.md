@@ -1,6 +1,6 @@
 # ROS Workshop Course Outline
 
-## Week 1 
+## Week 1
 
 ### [Beginners Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
@@ -46,10 +46,11 @@
 + Visualising Your Robot
 + Fixing a Broken URDF
 + Adding Sensor to a Robot
++ Controlling a simulated robot
 
 <details><summary>Additional Learning</summary>
-  
-+ Integrate Two Robots Together
+
++ Detecting an obstacle and stopping the robot
 
 </details>
 
@@ -60,30 +61,30 @@
 + Using move_base for navigation
 
 <details><summary>Additional Learning</summary>
-  
+
 + Find a Object by Navigating Around a Map
 
 </details>
 
 ### Wednesday: [Computer Vision](https://github.com/ros-workshop/perception.git)
 **What you will learn about:**
-+ Using an Camera to Detect Apriltags 
++ Using an Camera to Detect Apriltags
 + Using a Real Camera with ROS
 
 <details><summary>Additional Learning</summary>
-  
+
 + Fuse and Lidar and Camera/DNN data for Person Detection and localisation
 
 </details>
 
 ### Thursday: [Manipulation](https://github.com/ros-workshop/manipulation.git)
 **What you will learn about:**
-+ Creating a Moveit Configuration Package 
++ Creating a Moveit Configuration Package
 + Moving Your Robot in Rviz
 + Using the Moveit Class in a Node
 
 <details><summary>Additional Learning</summary>
-  
+
 + Create a OctoMap Using a Depth Camera
 </details>
 
@@ -92,4 +93,4 @@
 
 Navigate in a Gazebo World to Find an Collect as Many Objects as You Can
 
-"Mobility plus manipulation" describes a mobile robot that alternates between navigating its environment and manipulating objects (not to be confused with "mobile manipulation" where navigation and manipulation are performed at the same time). 
+"Mobility plus manipulation" describes a mobile robot that alternates between navigating its environment and manipulating objects (not to be confused with "mobile manipulation" where navigation and manipulation are performed at the same time).
