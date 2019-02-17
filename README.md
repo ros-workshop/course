@@ -1,4 +1,4 @@
-# Course
+# ROS Workshop Course Outline
 
 ## Week 1 
 
@@ -87,7 +87,9 @@
 + Create a OctoMap Using a Depth Camera
 </details>
 
-### Friday: [Mobility Plus Manipulation]
+### Friday: [Mobility Plus Manipulation](https://github.com/ros-workshop/mobility-plus-manipulation)
 **Task:**
 
 Navigate in a Gazebo World to Find an Collect as Many Objects as You Can
+
+"Mobility plus manipulation" describes a mobile robot that alternates between navigating its environment and manipulating objects (not to be confused with "mobile manipulation" where navigation and manipulation are performed at the same time). 
