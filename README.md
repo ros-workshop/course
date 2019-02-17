@@ -94,3 +94,24 @@
 Navigate in a Gazebo World to Find an Collect as Many Objects as You Can
 
 "Mobility plus manipulation" describes a mobile robot that alternates between navigating its environment and manipulating objects (not to be confused with "mobile manipulation" where navigation and manipulation are performed at the same time).
+
+
+## Workspace Setup
+
+* Follow the below instructions to setup a catkin workspace for week 2.
+
+```sh
+mkdir -p ~/workshop_ws/src  # Creates a workspace directory names workshop_ws.
+cd ~/workshop_ws/src
+catkin_init_workspace  # Initialises the workspace
+```
+
+* For working with week 2's topics/repositories, clone each repository into the
+src/ directory of the workspace `workshop_ws`. For e.g. for the
+[sensor-integration](https://github.com/ros-workshop/sensor-integration.git)
+repository, you'd do the following:
+
+```sh
+cd ~/workshop_ws/src
+git clone https://github.com/ros-workshop/sensor-integration.git
+```
