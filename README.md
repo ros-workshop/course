@@ -42,7 +42,7 @@
 
 ## Catkin Workspace Setup
 
-For this week, we'll build a single Catkin workspace called ```workshop_ws``` from scratch. Each day will build on the previous, so make sure you end each day with a working solution! 
+* For this week, we'll build a single Catkin workspace called ```workshop_ws``` from scratch. Each day will build on the previous, so make sure you end each day with a working solution! 
 
 <details><summary>Try this yourself first, otherwise, click here to for a hint!</summary>
   
@@ -51,10 +51,10 @@ mkdir -p ~/workshop_ws/src  # Creates a workspace directory names workshop_ws.
 cd ~/workshop_ws/src
 catkin_init_workspace  # Initialises the workspace
 ```
+
 </details>
 
-
-For each daily topic, clone the repository linked below into the
+* For each daily topic, clone the repository linked below into the
 `src/` directory of the workspace `workshop_ws`. 
 
 <details><summary>Try this yourself first, otherwise, click here to for a hint!</summary>
@@ -66,7 +66,9 @@ repository, you'd type:
 cd ~/workshop_ws/src
 git clone https://github.com/ros-workshop/sensor-integration.git
 ```
+
 </details>
+
 
 
 ## Monday: [Sensor Integration and URDFs](https://github.com/ros-workshop/sensor-integration.git)
