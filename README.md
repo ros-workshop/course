@@ -60,9 +60,8 @@ catkin_init_workspace  # Initialises the workspace
 `src/` directory of the workspace `workshop_ws`. 
 
 <details><summary>Try figure this out yourself first, otherwise, click here to for a hint!</summary>
-E.g. for the
-[sensor-integration](https://github.com/ros-workshop/sensor-integration.git)
-repository, you'd type:
+
+E.g. for the [sensor-integration](https://github.com/ros-workshop/sensor-integration.git) repository, you'd type:
 
 ```sh
 cd ~/workshop_ws/src
