@@ -40,11 +40,11 @@
 
 # Week 2
 
-## Catkin Workspace Setup
+### Catkin workspace setup
 
 * For this week, we'll build a single Catkin workspace called ```workshop_ws``` from scratch. Each day will build on the previous, so make sure you end each day with a working solution! 
 
-<details><summary>Try this yourself first, otherwise, click here to for a hint!</summary>
+<details><summary>Try figure this out yourself first, otherwise, click here to for a hint!</summary>
   
 ```sh
 mkdir -p ~/workshop_ws/src  # Creates a workspace directory names workshop_ws.
@@ -54,10 +54,12 @@ catkin_init_workspace  # Initialises the workspace
 
 </details>
 
+### Git clone each daily topic
+
 * For each daily topic, clone the repository linked below into the
 `src/` directory of the workspace `workshop_ws`. 
 
-<details><summary>Try this yourself first, otherwise, click here to for a hint!</summary>
+<details><summary>Try figure this out yourself first, otherwise, click here to for a hint!</summary>
 E.g. for the
 [sensor-integration](https://github.com/ros-workshop/sensor-integration.git)
 repository, you'd type:
@@ -65,6 +67,11 @@ repository, you'd type:
 ```sh
 cd ~/workshop_ws/src
 git clone https://github.com/ros-workshop/sensor-integration.git
+```
+Or if you are using SSH keys:
+```
+cd ~/workshop_ws/src
+git clone git@github.com:ros-workshop/sensor-integration.git
 ```
 
 </details>
