@@ -139,4 +139,15 @@ Navigate in a Gazebo World to Find an Collect as Many Objects as You Can
 
 "Mobility plus manipulation" describes a mobile robot that alternates between navigating its environment and manipulating objects (not to be confused with "mobile manipulation" where navigation and manipulation are performed at the same time).
 
+# Quick Check
+At the end of the workshop you should be able to answer these questions:
+* What's a node and a topic? 
+* Have you recorded a bag file, and what does the rosbag --clock parameter do?
+* Have you used rqt_graph to check what topics a node is subscribed to?
+* Do you know what a URDF is?
+* What's the "tf tree" and have you used rqt_tf_tree for introspection? 
+* How would you check how many messages a node is sending per second?
+* How to create custom messages using ROS message description language?
+* How to add external packages' nodes in a launch file?
+* How to edit your package's CMakeLists.txt file to add the source of ROS nodes, messages, services, etc. for compilation? 
 
