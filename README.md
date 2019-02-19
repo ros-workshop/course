@@ -2,6 +2,13 @@
 
 # Week 1
 
+## [Presentation Notes](https://github.com/ros-workshop/ros-introduction)
+**Outline:**
++ Filesystem Architecture
++ Computational Graph
++ Community
++ References
+
 ## [Beginners Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
 **What you will learn about:**
