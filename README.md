@@ -47,6 +47,15 @@
 
 # Week 2
 
+### Prerequisites
+
+Make sure you arrive with:
+* A good understanding of ROS basics (see Week 1 above)
+* A laptop running Ubuntu and ROS Kinetic
+* Access to the Internet (you'll need to download ~1 GB)
+* Access to this Github (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
+* Access to our Slack channel ([click here](https://ros-workshop-perth.slack.com), request access)
+
 ### Catkin workspace setup
 
 * For this week, we'll build a single Catkin workspace called ```workshop_ws``` from scratch. Each day will build on the previous, so make sure you end each day with a working solution! 
