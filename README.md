@@ -2,14 +2,14 @@
 
 # Week 1
 
-## [Presentation Notes](https://github.com/ros-workshop/ros-introduction)
+## View the [Presentation Notes](https://github.com/ros-workshop/ros-introduction)
 **Outline:**
 + Filesystem Architecture
 + Computational Graph
 + Community
 + References
 
-## [Beginners Tutorials](http://wiki.ros.org/ROS/Tutorials)
+## Complete the [Beginners ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
 **What you will learn about:**
 + ROS File System
@@ -31,7 +31,7 @@
 
 </details>
 
-## [Intermediate Tutorials](http://wiki.ros.org/ROS/Tutorials)
+## Complete the [Intermediate ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 **What you will learn about:**
 + Creating a Package by Hand
 + Managing Dependencies
