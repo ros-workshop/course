@@ -66,6 +66,7 @@ At the end of the first week you should be able to answer these questions:
 
 1. A node is an executable that uses ROS to communicate with other nodes. Nodes can publish messages to a topic as well as subscribe to a topic to receive messages
 2. If you are playing back a bag file with rosbag play, using the --clock option will run a Clock Server while the bag file is being played
+3. Well, have you?
 4. The Unified Robot Description Format (URDF) is an XML specification to describe a robot. URDF is an XML format that describes a robot, its parts, joints, dimensions and properties
 5. tf is a package that lets the user keep track of multiple coordinate frames over time. tf maintains the relationship between coordinate frames in a tree structure buffered in time, and lets the user transform points, vectors, etc between any two coordinate frames at any desired point in time
 6. rostopic hz [topic]
