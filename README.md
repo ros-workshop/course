@@ -11,6 +11,8 @@
 
 ## Complete the [Beginners ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
+Make sure you install ROS version Kinetic and Ubuntu version 16!
+
 **What you will learn about:**
 + ROS File System
 + Creating a Package
@@ -59,6 +61,11 @@ At the end of the first week you should be able to answer these questions:
 * How do you remap a topic name when starting a node in a lanch file?
 * What is an workspace "overlay" in Catkin?
 * What is the difference between a ROS package and a Debian (Ubuntu) package?
+
+## Tips to Remember
+At the end of the first week you should be able to answer these questions:
+* Every you open a new terminal window remember to run source devel/setup.bash from the workspace/src directory
+* After you have changed a file within a package you need to run a catkin_make from the workspace/src directory
 
 # Week 2
 
