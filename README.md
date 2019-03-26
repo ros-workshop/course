@@ -11,6 +11,8 @@
 
 ## Complete the [Beginners ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
+Make sure you install Ubuntu 16.04 Xenial and ROS Kinetic!
+
 **What you will learn about:**
 + ROS File System
 + Creating a Package
@@ -47,18 +49,42 @@
 
 ## Quick Check
 At the end of the first week you should be able to answer these questions:
-* What's a `node` and a `topic`? 
-* Have you recorded a bag file, and what does the `rosbag play --clock` parameter do?
-* Have you used `rqt_graph` to check what topics a node is subscribed to?
-* Do you know what a URDF is?
-* What's the "tf tree" and have you used `rqt_tf_tree` for introspection? 
-* How would you check how many messages a node is sending per second?
-* How to create custom messages using ROS message description language?
-* How to add external packages' nodes in a launch file?
-* How to edit your package's `CMakeLists.txt` file to add the source of ROS nodes, messages, services, etc. for compilation? 
-* How do you remap a topic name when starting a node in a lanch file?
-* What is an workspace "overlay" in Catkin?
-* What is the difference between a ROS package and a Debian (Ubuntu) package?
+1. What's a `node` and a `topic`? 
+2. Have you recorded a bag file, and what does the `rosbag play --clock` parameter do?
+3. Have you used `rqt_graph` to check what topics a node is subscribed to?
+4. Do you know what a URDF is?
+5. What's the "tf tree" and have you used `rqt_tf_tree` for introspection? 
+6. How would you check how many messages a node is sending per second?
+7. How to create custom messages using ROS message description language?
+8. How to add external packages' nodes in a launch file?
+9. How to edit your package's `CMakeLists.txt` file to add the source of ROS nodes, messages, services, etc. for compilation? 
+10. How do you remap a topic name when starting a node in a lanch file?
+11. What is an workspace "overlay" in Catkin?
+12. What is the difference between a ROS package and a Debian (Ubuntu) package?
+
+<details><summary>Click for answers!</summary>
+
+1. A node is an executable that uses ROS to communicate with other nodes. Nodes can publish messages to a topic as well as subscribe to a topic to receive messages
+2. If you are playing back a bag file with rosbag play, using the --clock option will run a Clock Server while the bag file is being played
+3. Well, have you?
+4. The Unified Robot Description Format (URDF) is an XML specification to describe a robot. URDF is an XML format that describes a robot, its parts, joints, dimensions and properties
+5. tf is a package that lets the user keep track of multiple coordinate frames over time. tf maintains the relationship between coordinate frames in a tree structure buffered in time, and lets the user transform points, vectors, etc between any two coordinate frames at any desired point in time
+6. rostopic hz [topic]
+7. Simply place a .msg file inside the msg directory in a package. More information found here (http://wiki.ros.org/ROS/Tutorials/DefiningCustomMessages)
+8. include file="$(find ros_package_name)/path_to_launch.launch"
+9. Information can be found here (http://wiki.ros.org/catkin/CMakeLists.txt)
+10. The remap tag allows you to pass in name remapping arguments to the ROS node that you are launching in a more structured manner than setting the args attribute of a node directly. The remap tag applies to all subsequent declarations in its scope (launch, node or group)
+11. Overlaying refers to building and using a ROS package from source on top of an existing version of that same package. In this way your new or modified version of the package "overlays" the installed one
+1. * *ROS Package:* A ROS package might contain ROS nodes, a ROS library, datasets, configuration files, third-party software, or anything else that logically constitutes a useful module. The goal of a ROS package is to provide functionality in an easy-to-consume manner that is reusable. In general, ROS packages follow a "Goldilocks" principle: enough functionality to be useful, but not too much that the package is heavyweight and difficult to use from other software. 
+   * *Debian Package:* A Debian/Ubuntu package is a `.deb` file that allows for applications or libraries to be distributed via the `apt` package management system. Packaging allows automated installation, upgrading, configuring, and removing computer programs for Debian/Ubuntu in a consistent manner. One or more Debian packages can be built from a single source package. A single Debian package can contain multiple ROS packages. Debian Policy requires that each `.deb` file is built with a particular structure and format but there are many methods of arriving at these files.
+</details>
+
+## Tips for the Advanced Tutorials
+Rememeber these tips for the upcoming advanced tutorials!
+* Every you open a new terminal window remember to run source devel/setup.bash from the workspace/src directory
+* After you have changed a file within a package you need to run a catkin_make from the workspace/src directory
+* Not all packages can be installed with sudo apt-get install as they might not have a rosdep key! If this is the case, clone the package manually and build within your workspace
+* --force-discover can be used if rosrun does not find your package
 
 # Week 2
 
@@ -75,7 +101,7 @@ Make sure you arrive with:
 
 * For this week, we'll build a single Catkin workspace called ```workshop_ws``` from scratch. Each day will build on the previous, so make sure you end each day with a working solution! 
 
-<details><summary>Try figure this out yourself first, otherwise, click here to for a hint!</summary>
+<details><summary>Try figure this out yourself first, otherwise, click here to for answer!</summary>
   
 ```sh
 mkdir -p ~/workshop_ws/src  # Creates a workspace directory names workshop_ws.
@@ -90,7 +116,7 @@ catkin_init_workspace  # Initialises the workspace
 * For each daily topic, clone the repository linked below into the
 `src/` directory of the workspace `workshop_ws`. 
 
-<details><summary>Try figure this out yourself first, otherwise, click here to for a hint!</summary>
+<details><summary>Try figure this out yourself first, otherwise, click here to for answer!</summary>
 
 E.g. for the [sensor-integration](https://github.com/ros-workshop/sensor-integration.git) repository, you'd type:
 
