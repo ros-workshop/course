@@ -11,7 +11,7 @@
 
 ## Complete the [Beginners ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
-Make sure you install ROS version Kinetic and Ubuntu version 16!
+Make sure you install Ubuntu 16.04 Xenial and ROS Kinetic!
 
 **What you will learn about:**
 + ROS File System
