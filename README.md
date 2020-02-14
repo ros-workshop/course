@@ -1,6 +1,18 @@
 # ROS Workshop Course Outline
 
-# Week 1
+### Prerequisites
+
+Make sure you arrive with:
+* A basic understanding of ROS
+* A laptop running Ubuntu 18.04 and ROS Melodic
+* Access to the Internet (you'll need to download ~1 GB)
+* Access to this Github (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
+* Access to our Slack channel ([click here](https://ros-workshop-perth.slack.com), request access)
+
+To complete the material you will need an installation of Ubuntu 18.04 and ROS Melodic.
+Please follow the [prerequists](https://github.com/ros-workshop/Prerequisites.md) to install Ubuntu 18.04 and ROS Melodic.
+View the Presentation Notes
+Spend some time to attempt the ROS Tutorials below.
 
 ## View the [Presentation Notes](https://github.com/ros-workshop/ros-introduction)
 **Outline:**
@@ -11,7 +23,7 @@
 
 ## Complete the [Beginners ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
-Make sure you install Ubuntu 16.04 Xenial and ROS Kinetic!
+
 
 **What you will learn about:**
 + ROS File System
@@ -86,16 +98,7 @@ Rememeber these tips for the upcoming advanced tutorials!
 * Not all packages can be installed with sudo apt-get install as they might not have a rosdep key! If this is the case, clone the package manually and build within your workspace
 * --force-discover can be used if rosrun does not find your package
 
-# Week 2
-
-### Prerequisites
-
-Make sure you arrive with:
-* A good understanding of ROS basics (see Week 1 above)
-* A laptop running Ubuntu and ROS Kinetic
-* Access to the Internet (you'll need to download ~1 GB)
-* Access to this Github (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
-* Access to our Slack channel ([click here](https://ros-workshop-perth.slack.com), request access)
+# Materials for this workshop
 
 ### Catkin workspace setup
 
@@ -167,6 +170,7 @@ git clone git@github.com:ros-workshop/sensor-integration.git
 
 <details><summary>Additional Learning</summary>
 
++ Camera Calibration
 + Fuse and Lidar and Camera/DNN data for Person Detection and localisation
 
 </details>
