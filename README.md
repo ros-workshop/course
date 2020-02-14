@@ -6,11 +6,11 @@ To complete this workshop please arrive with:
 * A basic understanding of Ubuntu Linux
 * A basic understanding of Python and C++
 * A laptop running Ubuntu 18.04 and ROS Melodic
-* * Make sure you install 18.04/Melodic as other versions are unlikely to work
-* * Please follow the [installation instructions here](https://github.com/ros-workshop/course/blob/master/ros-installation.md)
-* * If you get stuck, ask a mentor and we'll be happy to help
+  * Make sure you install 18.04/Melodic as other versions are unlikely to work
+  * Please follow the [installation instructions here](https://github.com/ros-workshop/course/blob/master/ros-installation.md)
+  * If you get stuck, ask a mentor and we'll be happy to help
 * Access to the Internet (you'll need to download 1-2 GB)
-* * Please ask for Wi-Fi access details
+  * Please ask for Wi-Fi access details
 * Access to this Github repository (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
 
 # Part 1: ROS Basics
