@@ -13,6 +13,26 @@ https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT?usp=sha
 
 Below are some suggestioned guides for installing.
 
+## Live USB
+
+Set Up Bootable USB
+<details><summary>Installation guide</summary>
+1.    Download the Bionic ISO image with Melodic desktop full installed here -> https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT?usp=sharing
+  
+2.    Plug USB 3.0 into your device
+
+3.    Create the bootable disk
+      Windows - Utility program DiskPart
+      Ubuntu – Startup Disk Creator
+      Mac – Disk Creator
+        
+4.    Plug USB into device you wish to live boot
+
+5.    Follow these instructions to live boot -> https://www.acronis.com/en-au/articles/usb-boot/
+
+
+</details>
+
 ## Virtual Machine
 
 Below is a guide to installing VirtualBox. There are other softare packages, including Parallels and VMware that offer better support for graphics integration, however most of them are paid.
@@ -45,27 +65,6 @@ Vmware Player - Works with Windows and Linux
   2. Follow: https://www.linuxlookup.com/howto/install_vmware_workstation_or_vmware_player_bundle_file
   For both you do not need to need to enter a license, just select free education version.
  
-</details>
-
-
-## Live USB
-
-Set Up Bootable USB
-<details><summary>Installation guide</summary>
-1.    Download the Bionic ISO image with Melodic desktop full installed here -> https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT?usp=sharing
-  
-2.    Plug USB 3.0 into your device
-
-3.    Create the bootable disk
-      Windows - Utility program DiskPart
-      Ubuntu – Startup Disk Creator
-      Mac – Disk Creator
-        
-4.    Plug USB into device you wish to live boot
-
-5.    Follow these instructions to live boot -> https://www.acronis.com/en-au/articles/usb-boot/
-
-
 </details>
 
 ## Dual-boot
