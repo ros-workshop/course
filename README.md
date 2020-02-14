@@ -2,15 +2,18 @@
 
 ### Prerequisites
 
-Make sure you arrive with:
+To complete the material please arrive with:
 * A basic understanding of ROS
-* A laptop running Ubuntu 18.04 and ROS Melodic
+* A laptop running Ubuntu 18.04 and ROS Melodic **please be sure to install the correct version
+* View the Presentation Notes
+* Spend some time to attempt the ROS Tutorials below.
 * Access to the Internet (you'll need to download ~1 GB)
 * Access to this Github (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
 * Access to our Slack channel ([click here](https://ros-workshop-perth.slack.com), request access)
 
-To complete the material you will need an installation of Ubuntu 18.04 and ROS Melodic.
+
 Please follow the [prerequists](https://github.com/ros-workshop/Prerequisites.md) to install Ubuntu 18.04 and ROS Melodic.
+
 View the Presentation Notes
 Spend some time to attempt the ROS Tutorials below.
 
