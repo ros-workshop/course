@@ -4,15 +4,15 @@ There are many ways to run Ubuntu and ROS on your own computer, each with their 
 
 | Method        | Benefits | Disadvantages |
 | ------------- | ------------- | ---------- |
-| Wipe and Install | Native performance  | Erases all data           |
+| Wipe & Install | Native performance  | Erases all data           |
 | Dual Boot  | Native performance, can co-exist with Windows  | Dangerous: can erase your laptop   |
-| Bootable "live" USB  | Native performance, doesn't alter Windows partitions | Slower disk I/O, risk of USB being bumped/corrupted   |
+| Bootable "Live" USB  | Native performance, doesn't alter Windows partitions | Slower disk I/O, risk of USB being bumped/corrupted   |
 | Virtual Machine   | Very easy to install | Much slower, may not handle Gazebo simulations, requires >4 GB of RAM |
 
 ### 18.04/Melodic ISO Disk Image
 A 3 GB ISO disk image containing Ubuntu 18.04 and ROS Melodic Desktop can be [found here](https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT). Ask a mentor for a copy of this file to avoid the 3 GB download. 
 
-Below are some rough guides for the various installation methods:
+Below are some rough guidelines for the various installation methods:
 
 ## Virtual Machine
 
@@ -20,10 +20,9 @@ Below is a guide to installing VirtualBox. There are other VM packages, such as 
 
 VirtualBox: Works with Windows, Linux and Mac
 
-<details><summary>Installation guide</summary>
-  
-  Further details check:  https://www.virtualbox.org/manual/UserManual.html#gui-createvm
+<details><summary>Installation:</summary>
 
+Steps:
 1. Download and install the VirtualBox 6.1.2 for your relevant platform from https://www.virtualbox.org/wiki/Downloads
 2. Install the extension to enable USB and other functionalities from https://download.virtualbox.org/virtualbox/6.1.2/Oracle_VM_VirtualBox_Extension_Pack-6.1.2.vbox-extpack
 3. In step 2, it will open up VirtualBox and ask permission to continue the installation. And continue to do so.
@@ -36,11 +35,15 @@ VirtualBox: Works with Windows, Linux and Mac
 10. This will present you with the wizard to try or install Ubuntu in your VM. Select install.
 11. Continue as you would normally to install Ubuntu, allowing it use the entire virtual disk
 12. Once completed unmount the ISO and reboot
+Further [details](https://www.virtualbox.org/manual/UserManual.html#gui-createvm)
+
 </details>
 
 Vmware Player: Works with Windows and Linux
 
 <details><summary>Installation guide</summary>
+  
+Steps:  
 1. Download from https://www.vmware.com/au/products/workstation-player.html
 2. Follow: https://www.linuxlookup.com/howto/install_vmware_workstation_or_vmware_player_bundle_file
     -For both you do not need to need to enter a license, just select free education version.
@@ -54,6 +57,8 @@ An empty memory stick (>16 GB, USB 3.0) is required:
 
 Set Up Bootable USB
 <details><summary>Installation guide</summary>
+  
+Steps:  
 1.    Download the 18.04/Melodic ISO disk image linked above
 2.    Plug USB 3.0 into your device
 3.    Create the bootable disk
@@ -71,6 +76,8 @@ Set Up Bootable USB
 Make sure you have a current backup of your computer before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. And a reminder "Format" means to totally erase a disk.
 
 <details><summary>Installation guide</summary>
+  
+Steps:  
 -  Installation will vary depending on your intended device.
 -  It is recommended to research thoroughly before attempting a dualboot setup.
   
