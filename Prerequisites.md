@@ -1,11 +1,15 @@
 # Installing Ubuntu
 
 For best performance during this course Ubuntu should be installed on the internal HDD/SSD. Often the best way is by dual-booting the device. 
+
 ***WARNING*** Backups of your computer should be completed before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. 
 
 Virtual Machine installations may not be able to handle processing simulations of the robots during the week.
 
 Live USB will require a formatted (data removed) USB3.0 and minimum 16GB storage. 
+
+An ISO containing Ubuntu 18.04 and ROS Melodic Desktop-full can be found:
+https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT?usp=sharing
 
 Below are some suggestioned guides for installing.
 
@@ -13,7 +17,7 @@ Below are some suggestioned guides for installing.
 
 Below is a guide to installing VirtualBox. There are other softare packages, including Parallels and VMware that offer better support for graphics integration, however most of them are paid.
 
-VirtualBox
+VirtualBox - Works with Windows, Linux and Mac
 <details><summary>Installation guide</summary>
   
   Further details check:  https://www.virtualbox.org/manual/UserManual.html#gui-createvm
@@ -32,8 +36,17 @@ VirtualBox
 12. Once, completed reboot to unmount the ISO from VM and start learning ROS.
 </details>
 
-ISO
-Vmware Player https://www.vmware.com/au/products/workstation-player.html
+
+Vmware Player - Works with Windows and Linux
+<details><summary>Installation guide</summary>
+  
+  1. Download from  https://www.vmware.com/au/products/workstation-player.html
+  For Linux
+  2. Follow: https://www.linuxlookup.com/howto/install_vmware_workstation_or_vmware_player_bundle_file
+  For both you do not need to need to enter a license, just select free education version.
+ 
+</details>
+
 
 ## Live USB
 
@@ -57,12 +70,17 @@ Set Up Bootable USB
 
 ## Dual-boot
 
-***WARNING*** Backups of your computer should be completed before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. 
+***Second WARNING*** 
+Backups of your computer should be completed before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. And a reminder "Format" means to totally erase a disk.
 
-
+<details><summary>Installation guide</summary>
+  Installation will vary depending on your intended device.
+  It is recommended to research thoroughly before attempting a dualboot setup.
+</details>
 
 # Installing ROS Melodic
 
+Once Ubuntu is installed.
 Follow the instructions to install "Desktop-Full Install: (Recommended)" at:
 
 http://wiki.ros.org/melodic/Installation/Ubuntu
