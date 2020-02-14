@@ -1,4 +1,4 @@
-# ros-introduction
+# ROS Introduction
 
 A brief introduction of the ROS system.
 
