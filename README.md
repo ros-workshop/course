@@ -104,7 +104,7 @@ catkin_init_workspace  # Initialises the workspace
 
 ### Git Clone
 
-* For each daily topic, clone the repository linked below into the
+For each daily topic, clone the repository linked below into the
 `src/` directory of the workspace `workshop_ws`. 
 
 <details><summary>Try to figure this out yourself first, otherwise, click here to for answer!</summary>
