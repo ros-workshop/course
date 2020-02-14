@@ -1,17 +1,17 @@
 # Installing Ubuntu
 
-For best performance during this course Ubuntu should be installed on the internal HDD/SSD. Often the best way is by dual-booting the device. 
+There are many ways to run Ubuntu and ROS on your own computer, each with benefits/disadvantages:
 
-***WARNING*** Backups of your computer should be completed before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. 
+|               | Benefits | Disadvantages |
+| ------------- | ------------- | ---------- |
+| Wipe and install | Native performance  | Erases all data           |
+| Dual boot  | Native performance, can co-exist with Windows  | Dangerous: can erase your laptop   |
+| Bootable "live" USB  | Native performance | Slower disk I/O, risk of USB being bumped/corrupted   |
+| Virtual machine   | Much slower, may not handle Gazebo simulations | Very easy to install  |
 
-Virtual Machine installations may not be able to handle processing simulations of the robots during the week.
+An ISO disk image (3 GB) containing Ubuntu 18.04 and ROS Melodic Desktop can be [found here](https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT). Ask a mentor for a copy of this file to avoid the 3 GB download. 
 
-Live USB will require a formatted (data removed) USB3.0 and minimum 16GB storage. 
-
-An ISO containing Ubuntu 18.04 and ROS Melodic Desktop-full can be found:
-https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT?usp=sharing
-
-Below are some suggestioned guides for installing.
+Below are some rough guides for installation:
 
 ## Virtual Machine
 
@@ -48,30 +48,28 @@ Vmware Player - Works with Windows and Linux
 </details>
 
 
-## Live USB
+## Bootable "Live" USB
+
+An empty memory stick (>16 GB, USB 3.0) is required:
 
 Set Up Bootable USB
 <details><summary>Installation guide</summary>
-1.    Download the Bionic ISO image with Melodic desktop full installed here -> https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT?usp=sharing
-  
+1.    Download the Bionic ISO image with Melodic desktop full installed here -> 
+
 2.    Plug USB 3.0 into your device
-
 3.    Create the bootable disk
-      Windows - Utility program DiskPart
-      Ubuntu – Startup Disk Creator
-      Mac – Disk Creator
-        
+      - Windows - Utility program DiskPart
+      - Ubuntu – Startup Disk Creator
+      - Mac – Disk Creator
 4.    Plug USB into device you wish to live boot
-
 5.    Follow these instructions to live boot -> https://www.acronis.com/en-au/articles/usb-boot/
-
 
 </details>
 
 ## Dual-boot
 
-***Second WARNING*** 
-Backups of your computer should be completed before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. And a reminder "Format" means to totally erase a disk.
+***WARNING*** 
+Make sure you have a current backup of your computer before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. And a reminder "Format" means to totally erase a disk.
 
 <details><summary>Installation guide</summary>
   Installation will vary depending on your intended device.
@@ -80,9 +78,4 @@ Backups of your computer should be completed before attempting any dual-boot ins
 
 # Installing ROS Melodic
 
-Once Ubuntu is installed.
-Follow the instructions to install "Desktop-Full Install" [on the ROS Wiki here](http://wiki.ros.org/melodic/Installation/Ubuntu):
-
-
-
-ros-installation.md
+Once Ubuntu is installed. Follow the instructions to install "Desktop-Full Install" [on the ROS Wiki here](http://wiki.ros.org/melodic/Installation/Ubuntu):
