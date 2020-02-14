@@ -1,4 +1,4 @@
-# ROS Workshop
+<img width="100%" src="https://github.com/ros-workshop/course/raw/master/images/ROS%20Workshop%20Perth%20Flyer%202020.png">
 
 ## Prerequisites
 
@@ -8,9 +8,9 @@ To complete this workshop please arrive with:
 * A laptop running Ubuntu 18.04 and ROS Melodic
   * Make sure you install 18.04/Melodic as other versions are unlikely to work
   * Please follow the [installation instructions here](https://github.com/ros-workshop/course/blob/master/ros-installation.md)
-  * If you get stuck, ask a mentor and we'll be happy to help
+  * Ask a mentor if you get stuck, and we'll be happy to help
 * Access to the Internet (you'll need to download 1-2 GB)
-  * Please ask for Wi-Fi access details
+  * Ask a mentor for Wi-Fi access details
 * Access to this Github repository (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
 
 # Part 1: ROS Basics
@@ -25,38 +25,27 @@ To complete this workshop please arrive with:
 ## Complete the [ROS Beginners Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
 **What you will learn:**
-+ ROS file organisation
-+ Creating a package
++ Directory structures for Catkin workspaces 
++ Creating packages
 + Nodes and topics
 + Bag files
-+ rqt_graph
-+ tf and tf trees
++ Viewing `rqt_graph`
++ About `tf` and `tf trees`
 + Parameters and services
 + Writing a publisher and subscriber nodes
-+ roslaunch
-
-<details><summary>Additional topics</summary>
-
-+ rqt_publisher
-+ rqt_robot_steering
-+ Rviz
 + Publishing and subscribing in the same node
-
-</details>
++ Using `rviz`
++ Using `roslaunch` 
 
 ## Complete the [ROS Intermediate Tutorials](http://wiki.ros.org/ROS/Tutorials)
 **What you will learn:**
 + Creating a new package by hand
 + Managing dependencies
 + Running ROS across multiple machines
-+ Launch files for large projects
-
-<details><summary>Additional topics</summary>
-
-+ Create a URDF
-+ Visualise a robot in `rviz`
-+ Visualise a robot in Gazebo
-</details>
++ Writing launch files for large projects
++ Creating a URDF
++ Visualising a robot in `rviz`
++ Visualising a robot in Gazebo
 
 ### Quick Check
 At the end of the first week you should be able to answer these questions:
@@ -91,10 +80,10 @@ At the end of the first week you should be able to answer these questions:
 </details>
 
 ### Tips 
-* Whenever you open a new terminal window remember to run source devel/setup.bash from the workspace/src directory
-* After you have changed a file within a package you need to run a catkin_make from the workspace/src directory
-* Not all packages can be installed with sudo apt-get install as they might not have a rosdep key! If this is the case, clone the package manually and build within your workspace
-* --force-discover can be used if rosrun does not find your package
+* Whenever you open a new terminal window remember to run `source devel/setup.bash` from the `workspace/src` directory
+* After you have changed a file within a package you need to run `catkin_make` from the `workspace/src` directory
+* Often packages cannot be installed with `sudo apt-get install` as they might not have a `rosdep` key! If this is the case, clone the package manually and build within your workspace
+* `--force-discover` can be used if `rosrun` does not find your package
 
 # Part 2: ROS Applications
 
