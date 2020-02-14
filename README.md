@@ -15,6 +15,10 @@ To complete this workshop please arrive with:
   * Ask a mentor for Wi-Fi access details
 * Access to this Github repository (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
 
+# Contributions
+
+This course material has been developed in our spare time. As you work through the workshop, please consider contributing any suggestions/edits back-- it's easy! You can either edit directly on github.com, or on a branch in your locally cloned copy. Do a Pull Request (PR) when you're ready for us to review. For the full process, read up on [“Git Flow” here](https://guides.github.com/introduction/flow).
+
 # Part 1: ROS Basics
 
 ## Review the [Presentation Notes](https://github.com/ros-workshop/course/blob/master/ros-introduction.md)
