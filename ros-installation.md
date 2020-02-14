@@ -81,8 +81,8 @@ Backups of your computer should be completed before attempting any dual-boot ins
 # Installing ROS Melodic
 
 Once Ubuntu is installed.
-Follow the instructions to install "Desktop-Full Install: (Recommended)" at:
-
-http://wiki.ros.org/melodic/Installation/Ubuntu
+Follow the instructions to install "Desktop-Full Install" [on the ROS Wiki here](http://wiki.ros.org/melodic/Installation/Ubuntu):
 
 
+
+ros-installation.md
