@@ -1,16 +1,23 @@
 # ROS Workshop 2020
 
-### Prerequisites
-
-Make sure you arrive with:
-* A good understanding of ROS basics (see Refresher below)
-* A laptop running Ubuntu Bionic 18.04 LTS and ROS Melodic
-* Access to the Internet (you'll need to download ~1 GB)
-* Access to this Github (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
-
 <details><summary> Refresher </summary>
   
 ## View the [ROS introduction](https://github.com/ros-workshop/ros-introduction)
+
+To complete the material please arrive with:
+* A basic understanding of ROS
+* A laptop running Ubuntu 18.04 and ROS Melodic **please be sure to install the correct version
+* View the Presentation Notes
+* Spend some time to attempt the ROS Tutorials below.
+* Access to the Internet (you'll need to download ~1 GB)
+* Access to this Github (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
+* Access to our Slack channel ([click here](https://ros-workshop-perth.slack.com), request access)
+
+
+Please follow the [prerequists](https://github.com/ros-workshop/Prerequisites.md) to install Ubuntu 18.04 and ROS Melodic.
+
+View the Presentation Notes
+Spend some time to attempt the ROS Tutorials below.
 
 **Outline:**
 + Filesystem Architecture
@@ -18,7 +25,7 @@ Make sure you arrive with:
 + Community
 + References
 
-## Review the [Beginner ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
+## Complete the [Beginners ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
 **Concepts:**
 + ROS File System
@@ -89,14 +96,7 @@ Can you answer the following questions:
 
 </details>
 
-# Course Outline
-
-## Tips for Tutorials
-
-* Every time you open a new terminal window remember to run source devel/setup.bash from the workspace/src directory
-* After you have changed a file within a package you need to run a catkin_make from the workspace/src directory
-* Not all packages can be installed with sudo apt-get install as they might not have a rosdep key! If this is the case, clone the package manually and build within your workspace
-* --force-discover can be used if rosrun does not find your package
+# Materials for this workshop
 
 ### Catkin workspace setup
 
@@ -168,6 +168,7 @@ git clone git@github.com:ros-workshop/sensor-integration.git
 
 <details><summary>Additional Learning</summary>
 
++ Camera Calibration
 + Fuse and Lidar and Camera/DNN data for Person Detection and localisation
 
 </details>
