@@ -64,7 +64,7 @@ questions; [answers.ros.org](http://answers.ros.org).
 
 1. ROS Concepts : http://wiki.ros.org/ROS/Concepts
 
-2. ROS Kinetic Cheatsheets
+2. ROS Cheat Sheets
     * Clearpath Robotics Inc. : https://www.clearpathrobotics.com/ros-robot-operating-system-cheat-sheet/
 
     * James Madison University Robotics Lab : https://w3.cs.jmu.edu/spragunr/CS354/handouts/ROSCheatsheet.pdf
