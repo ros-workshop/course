@@ -1,6 +1,8 @@
+<table><tr><td>
 <img width="100%" src="https://github.com/ros-workshop/course/raw/master/images/ROS%20Workshop%20Perth%20Flyer%202020.png">
+</td></tr></table>
 
-## Prerequisites
+# Course Prerequisites
 
 To complete this workshop please arrive with:
 * A basic understanding of Ubuntu Linux
@@ -16,15 +18,14 @@ To complete this workshop please arrive with:
 # Part 1: ROS Basics
 
 ## Review the [Presentation Notes](https://github.com/ros-workshop/course/blob/master/ros-introduction.md)
-**Outline:**
+Topics:
 + Filesystem Architecture
 + Computational Graph
 + Community
 + References
 
 ## Complete the [ROS Beginners Tutorials](http://wiki.ros.org/ROS/Tutorials)
-
-**What you will learn:**
+Topics:
 + Directory structures for Catkin workspaces 
 + Creating packages
 + Nodes and topics
@@ -38,7 +39,7 @@ To complete this workshop please arrive with:
 + Using `roslaunch` 
 
 ## Complete the [ROS Intermediate Tutorials](http://wiki.ros.org/ROS/Tutorials)
-**What you will learn:**
+Topics:
 + Creating a new package by hand
 + Managing dependencies
 + Running ROS across multiple machines
@@ -48,7 +49,7 @@ To complete this workshop please arrive with:
 + Visualising a robot in Gazebo
 
 ### Quick Check
-At the end of the first week you should be able to answer these questions:
+At the end of the Part 1, you should be able to answer these questions:
 1. What's a `node` and a `topic`? 
 2. Have you recorded a bag file, and what does the `rosbag play --clock` parameter do?
 3. Have you used `rqt_graph` to check what topics a node is subscribed to?
@@ -83,13 +84,13 @@ At the end of the first week you should be able to answer these questions:
 * Whenever you open a new terminal window remember to run `source devel/setup.bash` from the `workspace/src` directory
 * After you have changed a file within a package you need to run `catkin_make` from the `workspace/src` directory
 * Often packages cannot be installed with `sudo apt-get install` as they might not have a `rosdep` key! If this is the case, clone the package manually and build within your workspace
-* `--force-discover` can be used if `rosrun` does not find your package
+* If `rosrun` does not find your package, use `--force-discover`
 
 # Part 2: ROS Applications
 
-During these application topics, you will incrementally build a `catkin` workspace called ```workshop_ws```. Each day will build on the previous, so make sure you end each day with a working solution! 
+### Workspace Setup
 
-## Catkin Workspace Setup
+During these ROS applications, you will incrementally build a `catkin` workspace called ```workshop_ws```. Each day will build on the previous, so make sure you end each day with a working solution! 
 
 <details><summary>Try to figure out how to create a `catkin` workspace yourself, otherwise, click here to for answer!</summary>
   
@@ -101,7 +102,7 @@ catkin_init_workspace  # Initialises the workspace
 
 </details>
 
-## Git clone each daily topic
+### Git Clone
 
 * For each daily topic, clone the repository linked below into the
 `src/` directory of the workspace `workshop_ws`. 
@@ -123,7 +124,7 @@ git clone git@github.com:ros-workshop/sensor-integration.git
 </details>
 
 ## Monday: [Sensor Integration and URDFs](https://github.com/ros-workshop/sensor-integration)
-**You will learn:**
+Topics:
 + Creating a URDF
 + Visualising your robot
 + Fixing a broken URDF
@@ -132,27 +133,27 @@ git clone git@github.com:ros-workshop/sensor-integration.git
 + Detecting an obstacle and stopping the robot
 
 ## Tuesday: [SLAM & Navigation](https://github.com/ros-workshop/slam-navigation)
-**You will learn:**
+Topics:
 + Creating a map using a lidar
 + Simultaneous Localisation and Mapping (SLAM)
 + Using move_base for navigation
 + Finding an object by navigating around a map
 
 ## Wednesday: [Computer Vision](https://github.com/ros-workshop/perception)
-**You will learn:**
+Topics:
 + Using a camera to detect Apriltags
 + Using a real camera with ROS
 + Camera calibration
 + Fusing lidar and camera/DNN data for person detection and localisation
 
 ## Thursday: [Manipulation](https://github.com/ros-workshop/manipulation)
-**You will learn:**
+Topics:
 + Creating a Moveit configuration package
 + Moving Your robot in `rviz`
 + Using the Moveit class in a node
 + Creating a OctoMap using a depth camera
 
 ## Friday: [Mobility Plus Manipulation](https://github.com/ros-workshop/mobility-plus-manipulation)
-**You will learn:**
+Topics:
 + How to integrate multiple ROS nodes together 
 + How to create a robot in a Gazebo world that finds and picks up as many cubes as it can
