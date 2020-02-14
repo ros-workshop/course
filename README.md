@@ -1,19 +1,26 @@
-# ROS Workshop Course Outline
+# ROS Workshop 2020
 
-# Week 1
+### Prerequisites
 
-## View the [Presentation Notes](https://github.com/ros-workshop/ros-introduction)
+Make sure you arrive with:
+* A good understanding of ROS basics (see Refresher below)
+* A laptop running Ubuntu Bionic 18.04 LTS and ROS Melodic
+* Access to the Internet (you'll need to download ~1 GB)
+* Access to this Github (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
+
+<details><summary> Refresher </summary>
+  
+## View the [ROS introduction](https://github.com/ros-workshop/ros-introduction)
+
 **Outline:**
 + Filesystem Architecture
 + Computational Graph
 + Community
 + References
 
-## Complete the [Beginners ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
+## Review the [Beginner ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
 
-Make sure you install Ubuntu 16.04 Xenial and ROS Kinetic!
-
-**What you will learn about:**
+**Concepts:**
 + ROS File System
 + Creating a Package
 + Nodes and Topics
@@ -33,8 +40,9 @@ Make sure you install Ubuntu 16.04 Xenial and ROS Kinetic!
 
 </details>
 
-## Complete the [Intermediate ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
-**What you will learn about:**
+## Review the [Intermediate ROS Tutorials](http://wiki.ros.org/ROS/Tutorials)
+
+**Topics:**
 + Creating a Package by Hand
 + Managing Dependencies
 + Running ROS Across Multiple Machines
@@ -47,8 +55,8 @@ Make sure you install Ubuntu 16.04 Xenial and ROS Kinetic!
 + Visualise a Robot in Gazebo
 </details>
 
-## Quick Check
-At the end of the first week you should be able to answer these questions:
+## Knowledge Check
+Can you answer the following questions:
 1. What's a `node` and a `topic`? 
 2. Have you recorded a bag file, and what does the `rosbag play --clock` parameter do?
 3. Have you used `rqt_graph` to check what topics a node is subscribed to?
@@ -79,23 +87,16 @@ At the end of the first week you should be able to answer these questions:
    * *Debian Package:* A Debian/Ubuntu package is a `.deb` file that allows for applications or libraries to be distributed via the `apt` package management system. Packaging allows automated installation, upgrading, configuring, and removing computer programs for Debian/Ubuntu in a consistent manner. One or more Debian packages can be built from a single source package. A single Debian package can contain multiple ROS packages. Debian Policy requires that each `.deb` file is built with a particular structure and format but there are many methods of arriving at these files.
 </details>
 
-## Tips for the Advanced Tutorials
-Rememeber these tips for the upcoming advanced tutorials!
-* Every you open a new terminal window remember to run source devel/setup.bash from the workspace/src directory
+</details>
+
+# Course Outline
+
+## Tips for Tutorials
+
+* Every time you open a new terminal window remember to run source devel/setup.bash from the workspace/src directory
 * After you have changed a file within a package you need to run a catkin_make from the workspace/src directory
 * Not all packages can be installed with sudo apt-get install as they might not have a rosdep key! If this is the case, clone the package manually and build within your workspace
 * --force-discover can be used if rosrun does not find your package
-
-# Week 2
-
-### Prerequisites
-
-Make sure you arrive with:
-* A good understanding of ROS basics (see Week 1 above)
-* A laptop running Ubuntu and ROS Kinetic
-* Access to the Internet (you'll need to download ~1 GB)
-* Access to this Github (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
-* Access to our Slack channel ([click here](https://ros-workshop-perth.slack.com), request access)
 
 ### Catkin workspace setup
 
@@ -160,7 +161,7 @@ git clone git@github.com:ros-workshop/sensor-integration.git
 
 </details>
 
-## Wednesday: [Computer Vision](https://github.com/ros-workshop/perception.git)
+## Wednesday: [Perception](https://github.com/ros-workshop/perception.git)
 **What you will learn about:**
 + Using an Camera to Detect Apriltags
 + Using a Real Camera with ROS
