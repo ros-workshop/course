@@ -34,10 +34,7 @@ and handles the communication between various processes.
 
 ### Community
 
-ROS community is an active open-source organisation sharing knowledge,
-algorithms, code packages from any developer. It allows us to _overlay_ and
-experiment a package from one developer on top of our developed packages. These
-resources include:
+ROS has an active open-source community sharing knowledge, algorithms, code and packages from thousands of developers around the world. It allows us experiment with other developers' code and collaborate using a variety of resources including:
 
 * Distributions : Similar to Linux distributions or Windows OS versions, ROS
 distributions provide updates made to its core-system by the community.
@@ -47,6 +44,8 @@ and release their own robotics components as repositories, e.g. cartographer
 
 * The ROS Wiki : Contains documentation about ROS and provides a forum for the
 ROS community to contribute via documentation updates, tutorials, etc.
+
+* ROS Discourse : A ROS community forum https://discourse.ros.org
 
 * Bug Ticket System : Way to enable ROS users to apply bug-fixes on any of the ROS
 codebase. Currently this is done via pull-requests on respective Git repositories.
