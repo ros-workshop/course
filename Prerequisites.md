@@ -37,9 +37,34 @@ Vmware Player https://www.vmware.com/au/products/workstation-player.html
 
 ## Live USB
 
+Set Up Bootable USB
+<details><summary>Installation guide</summary>
+1.    Download the Bionic ISO image with Melodic desktop full installed here -> https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT?usp=sharing
+  
+2.    Plug USB 3.0 into your device
+
+3.    Create the bootable disk
+      Windows - Utility program DiskPart
+      Ubuntu – Startup Disk Creator
+      Mac – Disk Creator
+        
+4.    Plug USB into device you wish to live boot
+
+5.    Follow these instructions to live boot -> https://www.acronis.com/en-au/articles/usb-boot/
+
+
+</details>
+
 ## Dual-boot
+
+***WARNING*** Backups of your computer should be completed before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. 
+
 
 
 # Installing ROS Melodic
+
+Follow the instructions to install "Desktop-Full Install: (Recommended)" at:
+
+http://wiki.ros.org/melodic/Installation/Ubuntu
 
 
