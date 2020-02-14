@@ -48,8 +48,8 @@ Topics:
 + Visualising a robot in `rviz`
 + Visualising a robot in Gazebo
 
-### Quick Check
-At the end of the Part 1, you should be able to answer these questions:
+### Self Check
+Make sure you can answer these questions before proceeding:
 1. What's a `node` and a `topic`? 
 2. Have you recorded a bag file, and what does the `rosbag play --clock` parameter do?
 3. Have you used `rqt_graph` to check what topics a node is subscribed to?
@@ -86,11 +86,20 @@ At the end of the Part 1, you should be able to answer these questions:
 * Often packages cannot be installed with `sudo apt-get install` as they might not have a `rosdep` key! If this is the case, clone the package manually and build within your workspace
 * If `rosrun` does not find your package, use `--force-discover`
 
-# Part 2: ROS Applications
+# Part 2: ROS Application Areas
+
+The second part of this workshop consists of four application areas that are worked on over four days. The workshop material is cloned from these repositories:
+* [Monday: Sensor Integration and URDFs](https://github.com/ros-workshop/sensor-integration)
+* [Tuesday: SLAM & Navigation](https://github.com/ros-workshop/slam-navigation)
+* [Wednesday: Perception](https://github.com/ros-workshop/perception)
+* [Thursday: Manipulation](https://github.com/ros-workshop/manipulation)
+
+The fifth day (Friday) integrates these application areas to build a simulated robot that can navigate its environment, finding and picking up cubes:
+* [Friday: Mobility Plus Manipulation](https://github.com/ros-workshop/mobility-plus-manipulation)
 
 ### Workspace Setup
 
-During these ROS applications, you will incrementally build a `catkin` workspace called ```workshop_ws```. Each day will build on the previous, so make sure you end each day with a working solution! 
+Across these five days, you will incrementally build a `catkin` workspace called ```workshop_ws```. Each day will build on the previous, so make sure you end each day with a working solution! 
 
 <details><summary>Try to figure out how to create a `catkin` workspace yourself, otherwise, click here to for answer!</summary>
   
@@ -104,7 +113,7 @@ catkin_init_workspace  # Initialises the workspace
 
 ### Git Clone
 
-For each daily topic, clone the repository linked below into the
+For each day, clone the repository linked below into the
 `src/` directory of the workspace `workshop_ws`. 
 
 <details><summary>Try to figure this out yourself first, otherwise, click here to for answer!</summary>
@@ -139,7 +148,7 @@ Topics:
 + Using move_base for navigation
 + Finding an object by navigating around a map
 
-## Wednesday: [Computer Vision](https://github.com/ros-workshop/perception)
+## Wednesday: [Perception](https://github.com/ros-workshop/perception)
 Topics:
 + Using a camera to detect Apriltags
 + Using a real camera with ROS
