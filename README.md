@@ -1,5 +1,7 @@
 <table><tr><td>
-<img width="100%" src="https://github.com/ros-workshop/course/raw/master/images/ROS%20Workshop%20Perth%20Flyer%202020.png">
+
+![workshop-flyer](images/ROS_Workshop_Perth_Flyer_2021.jpg)
+
 </td></tr></table>
 
 # Course Prerequisites
