@@ -110,7 +110,7 @@ Across these five days, you will incrementally build a `catkin` workspace called
 <details><summary>Try to figure out how to create a `catkin` workspace yourself, otherwise, click here to for answer!</summary>
   
 ```sh
-mkdir -p ~/workshop_ws/src  # Creates a workspace https://catkin-tools.readthedocs.io/en/latest/installing.html://catkin-tools.readthedocs.io/en/latest/installing.htmlry names workshop_ws.
+mkdir -p ~/workshop_ws/src  # Creates a workspace directory names workshop_ws.
 cd ~/workshop_ws/src
 ```
 
