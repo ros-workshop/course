@@ -86,3 +86,7 @@ Steps:
 # Installing ROS Melodic
 
 Once Ubuntu is installed. Follow the instructions to install "Desktop-Full Install" [on the ROS Wiki here](http://wiki.ros.org/melodic/Installation/Ubuntu):
+
+# Install Catkin Tools
+
+Also install Catkin Tools. Follow the apt install instructions in the [catkin tools docs](https://catkin-tools.readthedocs.io/en/latest/installing.html)

@@ -19,7 +19,7 @@ folder structure and the minimum number of files it needs to work with.
 
 ![ROS_Filesystem](./images/ROS_Filesystem_Architecture.png)
 
-- **Useful Commands** : [`rospack`][cmd-rospack], [`catkin_create_pkg`][cmd-catkin_create_pkg], [`catkin_make`][cmd-catkin_make], [`rosdep`][cmd-rosdep], [`roscd`][cmd-roscd], [`rosed`][cmd-rosed], [`roscp`][cmd-roscp], [`rosd`][cmd-rosd], [`rosls`][cmd-rosls]
+- **Useful Commands** : [`rospack`][cmd-rospack], [`catkin_create_pkg`][cmd-catkin_create_pkg], [`catkin build`][cmd-catkin-build], [`rosdep`][cmd-rosdep], [`roscd`][cmd-roscd], [`rosed`][cmd-rosed], [`roscp`][cmd-roscp], [`rosd`][cmd-rosd], [`rosls`][cmd-rosls]
 - **More information**: http://wiki.ros.org/ROS/Concepts#ROS_Filesystem_Level
 
 ### Computational Graph
@@ -60,7 +60,7 @@ ROS community to contribute via documentation updates, tutorials, etc. (http://w
 
 [cmd-rospack]: http://wiki.ros.org/rospack?distro=melodic
 [cmd-catkin_create_pkg]: http://wiki.ros.org/catkin/commands/catkin_create_pkg
-[cmd-catkin_make]: http://wiki.ros.org/catkin/commands/catkin_make
+[cmd-catkin-build]: https://catkin-tools.readthedocs.io/en/latest/installing.html 
 [cmd-rosdep]: http://wiki.ros.org/rosdep
 [cmd-roscd]: http://wiki.ros.org/rosbash?distro=melodic#roscd
 [cmd-rosed]: http://wiki.ros.org/rosbash?distro=melodic#rosed

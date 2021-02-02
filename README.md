@@ -88,7 +88,7 @@ Make sure you can answer these questions before proceeding:
 
 ### Tips 
 * Whenever you open a new terminal window remember to run `source devel/setup.bash` from the `workspace/src` directory
-* After you have changed a file within a package you need to run `catkin_make` from the `workspace/src` directory
+* After you have changed a file within a package you need to run `catkin build` from the `workspace/src` directory
 * Often packages cannot be installed with `sudo apt-get install` as they might not have a `rosdep` key! If this is the case, clone the package manually and build within your workspace
 * If `rosrun` does not find your package, use `--force-discover`
 
@@ -110,9 +110,8 @@ Across these five days, you will incrementally build a `catkin` workspace called
 <details><summary>Try to figure out how to create a `catkin` workspace yourself, otherwise, click here to for answer!</summary>
   
 ```sh
-mkdir -p ~/workshop_ws/src  # Creates a workspace directory names workshop_ws.
+mkdir -p ~/workshop_ws/src  # Creates a workspace https://catkin-tools.readthedocs.io/en/latest/installing.html://catkin-tools.readthedocs.io/en/latest/installing.htmlry names workshop_ws.
 cd ~/workshop_ws/src
-catkin_init_workspace  # Initialises the workspace
 ```
 
 </details>
@@ -137,6 +136,23 @@ git clone git@github.com:ros-workshop/sensor-integration.git
 ```
 
 </details>
+
+### Catkin Build
+
+for each day, once the package is cloned into the workspace, build the workspace. 
+
+<details><summary>Try to figure this out yourself first, otherwise, click here to for answer!</summary>
+
+
+Note: If this command fails, install catkin tools following the instructions [here](https://catkin-tools.readthedocs.io/en/latest/installing.html) 
+
+```sh
+cd ~/workshop_ws
+catkin build
+```
+</details>
+
+
 
 ## Monday: [Sensor Integration and URDFs](https://github.com/ros-workshop/sensor-integration)
 Topics:
