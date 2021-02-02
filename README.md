@@ -110,7 +110,7 @@ Across these five days, you will incrementally build a `catkin` workspace called
 <details><summary>Try to figure out how to create a `catkin` workspace yourself, otherwise, click here to for answer!</summary>
   
 ```sh
-mkdir -p ~/workshop_ws/src  # Creates a workspace directory names workshop_ws.
+mkdir -p ~/workshop_ws/src  # Creates a workspace directory named workshop_ws.
 cd ~/workshop_ws/src
 ```
 
@@ -139,16 +139,18 @@ git clone git@github.com:ros-workshop/sensor-integration.git
 
 ### Catkin Build
 
-for each day, once the package is cloned into the workspace, build the workspace. 
+Build and then source the workspace. 
 
 <details><summary>Try to figure this out yourself first, otherwise, click here to for answer!</summary>
 
 
-Note: If this command fails, install catkin tools following the instructions [here](https://catkin-tools.readthedocs.io/en/latest/installing.html) 
+Note: If this command fails, install catkin tools following the instructions [here](https://catkin-tools.readthedocs.io/en/latest/installing.html)
+Tip: Source any workspaces you want to extend before running catkin build. 
 
 ```sh
 cd ~/workshop_ws
 catkin build
+source devel/setup.bash
 ```
 </details>
 
