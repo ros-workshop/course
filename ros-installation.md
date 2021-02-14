@@ -10,7 +10,7 @@ There are many ways to run Ubuntu and ROS on your own computer, each with their 
 | Virtual Machine   | Very easy to install | Much slower, may not handle Gazebo simulations, requires >4 GB of RAM |
 
 ### 18.04/Melodic ISO Disk Image
-A 3 GB ISO disk image containing Ubuntu 18.04 and ROS Melodic Desktop can be [found here](https://drive.google.com/drive/folders/1qnYpG7GZATu9GLbctysO56Sh4IkWvczT). Ask a mentor for a copy of this file to avoid the 3 GB download. 
+A 3 GB ISO disk image containing Ubuntu 18.04 and ROS Melodic Desktop can be [found here](https://drive.google.com/drive/folders/11ll7wGBVl2okhs5lxQNMzqIcqliMpN9V?usp=sharing). Ask a mentor for a copy of this file to avoid the 3 GB download. 
 
 Below are some rough guidelines for the various installation methods:
 
