@@ -16,6 +16,8 @@ To complete this workshop please arrive with:
 * Access to the Internet (you'll need to download 1-2 GB)
   * Ask a mentor for Wi-Fi access details
 * Access to this GitHub repository (consider [adding a SSH key][gh-ssh-keys])
+ 
+**Note**: While any IDE can be used for this course, we recommend the use of VSCode (https://code.visualstudio.com/)
 
 # Contributions
 
