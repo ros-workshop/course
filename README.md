@@ -1,6 +1,6 @@
 <table><tr><td>
 
-![workshop-flyer](images/ROS_Workshop_Perth_Flyer_2022.jpg)
+![workshop-flyer](images/ROS_Workshop_Perth_Flyer_2022.png)
 
 </td></tr></table>
 
