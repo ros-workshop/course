@@ -1,6 +1,6 @@
 <table><tr><td>
 
-![workshop-flyer](images/ROS_Workshop_Perth_Flyer_2022.png)
+![workshop-flyer](./images/ROS_Workshop_Perth_Flyer_2022.png)
 
 </td></tr></table>
 
@@ -11,26 +11,30 @@ To complete this workshop please arrive with:
 * A basic understanding of Python and C++
 * A laptop running Ubuntu 18.04 and ROS Melodic
   * Make sure you install 18.04/Melodic as other versions are unlikely to work
-  * Please follow the [installation instructions here](https://github.com/ros-workshop/course/blob/master/ros-installation.md)
+  * Please follow the [installation instructions here][ros-installation]
   * Ask a mentor if you get stuck, and we'll be happy to help
 * Access to the Internet (you'll need to download 1-2 GB)
   * Ask a mentor for Wi-Fi access details
-* Access to this Github repository (consider [adding a SSH key](https://help.github.com/articles/connecting-to-github-with-ssh/))
+* Access to this GitHub repository (consider [adding a SSH key][gh-ssh-keys])
 
 # Contributions
 
-This course material has been developed in our spare time. As you work through the workshop, please consider contributing any suggestions/edits back-- it's easy! You can either edit directly on github.com, or on a branch in your locally cloned copy. Do a Pull Request (PR) when you're ready for us to review. For the full process, read up on [“Git Flow” here](https://guides.github.com/introduction/flow).
+This course material has been developed in our spare time. 
+As you work through the workshop, please consider contributing any suggestions/edits back -- it's easy! 
+
+You can either edit directly on https://github.com/ros-workshop, or on a branch in your locally cloned copy. 
+Do a Pull Request (PR) when you're ready for us to review. For the full process, read up on [“Git Flow” here][gh-git-flow].
 
 # Part 1: ROS Basics
 
-## Review the [Presentation Notes](https://github.com/ros-workshop/course/blob/master/ros-introduction.md)
+## Review the [Presentation Notes](./ros-introduction.md)
 Topics:
 + Filesystem Architecture
 + Computational Graph
 + Community
 + References
 
-## Complete the [ROS Beginners Tutorials](http://wiki.ros.org/ROS/Tutorials)
+## Complete the [ROS Beginners Tutorials][ros-tutorials]
 Topics:
 + Directory structures for Catkin workspaces 
 + Creating packages
@@ -44,7 +48,7 @@ Topics:
 + Using `rviz`
 + Using `roslaunch` 
 
-## Complete the [ROS Intermediate Tutorials](http://wiki.ros.org/ROS/Tutorials)
+## Complete the [ROS Intermediate Tutorials][ros-tutorials]
 Topics:
 + Creating a new package by hand
 + Managing dependencies
@@ -72,18 +76,18 @@ Make sure you can answer these questions before proceeding:
 <details><summary>Click for answers!</summary>
 
 1. A node is an executable that uses ROS to communicate with other nodes. Nodes can publish messages to a topic as well as subscribe to a topic to receive messages
-2. If you are playing back a bag file with rosbag play, using the --clock option will run a Clock Server while the bag file is being played
+2. If you are playing back a bag file with `rosbag play`, using the `--clock` option will run a Clock Server while the bag file is being played
 3. Well, have you?
 4. The Unified Robot Description Format (URDF) is an XML specification to describe a robot. URDF is an XML format that describes a robot, its parts, joints, dimensions and properties
 5. tf is a package that lets the user keep track of multiple coordinate frames over time. tf maintains the relationship between coordinate frames in a tree structure buffered in time, and lets the user transform points, vectors, etc between any two coordinate frames at any desired point in time
-6. rostopic hz [topic]
-7. Simply place a .msg file inside the msg directory in a package. More information found here (http://wiki.ros.org/ROS/Tutorials/DefiningCustomMessages)
-8. include file="$(find ros_package_name)/path_to_launch.launch"
-9. Information can be found here (http://wiki.ros.org/catkin/CMakeLists.txt)
+6. `rostopic hz [topic]`
+7. Simply place a `.msg` file inside the msg directory in a package. More information found [here][ros-custom-msg]
+8. `include file="$(find ros_package_name)/path_to_launch.launch"`
+9. Information can be found [here][ros-cmakelists]
 10. The remap tag allows you to pass in name remapping arguments to the ROS node that you are launching in a more structured manner than setting the args attribute of a node directly. The remap tag applies to all subsequent declarations in its scope (launch, node or group)
 11. Overlaying refers to building and using a ROS package from source on top of an existing version of that same package. In this way your new or modified version of the package "overlays" the installed one
-1. * *ROS Package:* A ROS package might contain ROS nodes, a ROS library, datasets, configuration files, third-party software, or anything else that logically constitutes a useful module. The goal of a ROS package is to provide functionality in an easy-to-consume manner that is reusable. In general, ROS packages follow a "Goldilocks" principle: enough functionality to be useful, but not too much that the package is heavyweight and difficult to use from other software. 
-   * *Debian Package:* A Debian/Ubuntu package is a `.deb` file that allows for applications or libraries to be distributed via the `apt` package management system. Packaging allows automated installation, upgrading, configuring, and removing computer programs for Debian/Ubuntu in a consistent manner. One or more Debian packages can be built from a single source package. A single Debian package can contain multiple ROS packages. Debian Policy requires that each `.deb` file is built with a particular structure and format but there are many methods of arriving at these files.
+12. * *ROS Package:* A ROS package might contain ROS nodes, a ROS library, datasets, configuration files, third-party software, or anything else that logically constitutes a useful module. The goal of a ROS package is to provide functionality in an easy-to-consume manner that is reusable. In general, ROS packages follow a "Goldilocks" principle: enough functionality to be useful, but not too much that the package is heavyweight and difficult to use from other software. 
+    * *Debian Package:* A Debian/Ubuntu package is a `.deb` file that allows for applications or libraries to be distributed via the `apt` package management system. Packaging allows automated installation, upgrading, configuring, and removing computer programs for Debian/Ubuntu in a consistent manner. One or more Debian packages can be built from a single source package. A single Debian package can contain multiple ROS packages. Debian Policy requires that each `.deb` file is built with a particular structure and format but there are many methods of arriving at these files.
 </details>
 
 ### Tips 
@@ -95,13 +99,13 @@ Make sure you can answer these questions before proceeding:
 # Part 2: ROS Application Areas
 
 The second part of this workshop consists of four application areas that are worked on over four days. The workshop material is cloned from these repositories:
-* [Monday: Sensor Integration and URDFs](https://github.com/ros-workshop/sensor-integration)
-* [Tuesday: SLAM & Navigation](https://github.com/ros-workshop/slam-navigation)
-* [Wednesday: Perception](https://github.com/ros-workshop/perception)
-* [Thursday: Manipulation](https://github.com/ros-workshop/manipulation)
+* **Monday**: [Sensor Integration and URDFs][01-sensor-integration]
+* **Tuesday**: [SLAM & Navigation][02-slam-navigation]
+* **Wednesday**: [Perception][03-perception]
+* **Thursday**: [Manipulation][04-manipulation]
 
 The fifth day (Friday) integrates these application areas to build a simulated robot that can navigate its environment, finding and picking up cubes:
-* [Friday: Mobility Plus Manipulation](https://github.com/ros-workshop/mobility-plus-manipulation)
+* **Friday**: [Mobility Plus Manipulation][05-mopbility-plus-manipulation]
 
 ### Workspace Setup
 
@@ -123,7 +127,7 @@ For each day, clone the repository linked below into the
 
 <details><summary>Try to figure this out yourself first, otherwise, click here to for answer!</summary>
 
-E.g. for the [sensor-integration](https://github.com/ros-workshop/sensor-integration.git) repository, you'd type:
+E.g. for the [sensor-integration][01-sensor-integration] repository, you'd type:
 
 ```sh
 cd ~/workshop_ws/src
@@ -143,9 +147,9 @@ Build and then source the workspace.
 
 <details><summary>Try to figure this out yourself first, otherwise, click here to for answer!</summary>
 
-+ Note: If this command fails, install catkin tools following the instructions [here](https://catkin-tools.readthedocs.io/en/latest/installing.html).
++ **Note**: If this command fails, install catkin tools following the instructions [here][catkin-tools].
 
-+ Tip: Source any workspaces you want to extend before running `catkin build`.
++ **Tip**: Source any workspaces you want to extend before running `catkin build`.
 
 
 ```sh
@@ -157,8 +161,8 @@ source devel/setup.bash
 
 
 
-## Monday: [Sensor Integration and URDFs](https://github.com/ros-workshop/sensor-integration)
-Topics:
+## Monday: [Sensor Integration and URDFs][01-sensor-integration]
+**Topics**:
 + Creating a URDF
 + Visualising your robot
 + Fixing a broken URDF
@@ -166,28 +170,44 @@ Topics:
 + Controlling a simulated robot
 + Detecting an obstacle and stopping the robot
 
-## Tuesday: [SLAM & Navigation](https://github.com/ros-workshop/slam-navigation)
-Topics:
+## Tuesday: [SLAM & Navigation][02-slam-navigation]
+**Topics**:
 + Creating a map using a lidar
 + Simultaneous Localisation and Mapping (SLAM)
 + Using move_base for navigation
 + Finding an object by navigating around a map
 
-## Wednesday: [Perception](https://github.com/ros-workshop/perception)
-Topics:
+## Wednesday: [Perception][03-perception]
+**Topics**:
 + Using a camera to detect Apriltags
 + Using a real camera with ROS
 + Camera calibration
 + Fusing lidar and camera/DNN data for person detection and localisation
 
-## Thursday: [Manipulation](https://github.com/ros-workshop/manipulation)
-Topics:
+## Thursday: [Manipulation][04-manipulation]
+**Topics**:
 + Creating a Moveit configuration package
 + Moving Your robot in `rviz`
 + Using the Moveit class in a node
 + Creating a OctoMap using a depth camera
 
-## Friday: [Mobility Plus Manipulation](https://github.com/ros-workshop/mobility-plus-manipulation)
-Topics:
+## Friday: [Mobility Plus Manipulation][05-mopbility-plus-manipulation]
+**Topics**:
 + How to integrate multiple ROS nodes together 
 + How to create a robot in a Gazebo world that finds and picks up as many cubes as it can
+
+[01-sensor-integration]: https://github.com/ros-workshop/sensor-integration
+[02-slam-navigation]: https://github.com/ros-workshop/slam-navigation
+[03-perception]: https://github.com/ros-workshop/perception
+[04-manipulation]: https://github.com/ros-workshop/manipulation
+[05-mopbility-plus-manipulation]: https://github.com/ros-workshop/mobility-plus-manipulation
+
+[catkin-tools]: https://catkin-tools.readthedocs.io/en/latest/installing.html
+[gh-git-flow]: https://guides.github.com/introduction/flow
+[gh-ssh-keys]: https://help.github.com/articles/connecting-to-github-with-ssh/
+
+[ros-cmakelists]: http://wiki.ros.org/catkin/CMakeLists.txt
+[ros-custom-msg]: http://wiki.ros.org/ROS/Tutorials/DefiningCustomMessages
+[ros-installation]: https://github.com/ros-workshop/course/blob/master/ros-installation.md
+[ros-tutorials]: http://wiki.ros.org/ROS/Tutorials
+ 
