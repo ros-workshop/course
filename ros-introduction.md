@@ -44,7 +44,7 @@ and release their own robotics components as repositories (e.g. [cartographer](h
 - **The ROS Wiki** : Contains documentation about ROS and provides a forum for the
 ROS community to contribute via documentation updates, tutorials, etc. (http://wiki.ros.org/)
 - **ROS Discourse** : A ROS community forum (https://discourse.ros.org)
-- **Bug Ticket System** : Way to enable ROS users to apply bug-fixes on any of the ROS codebase. Currently this is done via pull-requests on respective Git repositories
+- **Bug Ticket System** : Way to enable ROS users to apply bug-fixes on any of the ROS codebase. Currently, this is done via pull-requests on respective Git repositories
 - **Mailing List** : `ros-users` mailing list provides regular updates on ROS (http://lists.ros.org/mailman/listinfo/ros-users)
 - **ROS Answers** : Question-Answer forum where users are encouraged to ask and answer questions (http://answers.ros.org)
 - **Blog** : Regular photos, updates and news articles about ROS (http://ros.org/news)
@@ -58,22 +58,22 @@ ROS community to contribute via documentation updates, tutorials, etc. (http://w
     - James Madison University Robotics Lab : [ROS Kinetic Cheatsheet](https://w3.cs.jmu.edu/spragunr/CS354/handouts/ROSCheatsheet.pdf)
 
 
-[cmd-rospack]: http://wiki.ros.org/rospack?distro=melodic
+[cmd-rospack]: http://wiki.ros.org/rospack?distro=noetic
 [cmd-catkin_create_pkg]: http://wiki.ros.org/catkin/commands/catkin_create_pkg
 [cmd-catkin-build]: https://catkin-tools.readthedocs.io/en/latest/installing.html 
 [cmd-rosdep]: http://wiki.ros.org/rosdep
-[cmd-roscd]: http://wiki.ros.org/rosbash?distro=melodic#roscd
-[cmd-rosed]: http://wiki.ros.org/rosbash?distro=melodic#rosed
-[cmd-roscp]: http://wiki.ros.org/rosbash?distro=melodic#roscp
-[cmd-rosd]: http://wiki.ros.org/rosbash?distro=melodic#rosd
-[cmd-rosls]: http://wiki.ros.org/rosbash?distro=melodic#rosls
+[cmd-roscd]: http://wiki.ros.org/rosbash?distro=noetic#roscd
+[cmd-rosed]: http://wiki.ros.org/rosbash?distro=noetic#rosed
+[cmd-roscp]: http://wiki.ros.org/rosbash?distro=noetic#roscp
+[cmd-rosd]: http://wiki.ros.org/rosbash?distro=noetic#rosd
+[cmd-rosls]: http://wiki.ros.org/rosbash?distro=noetic#rosls
 
 [cmd-roscore]: http://wiki.ros.org/roscore
-[cmd-rosnode]: http://wiki.ros.org/rosnode?distro=melodic
-[cmd-rostopic]: http://wiki.ros.org/rostopic?distro=melodic
-[cmd-rosrun]: http://wiki.ros.org/rosbash?distro=melodic#rosrun
-[cmd-rosservice]: http://wiki.ros.org/rosservice?distro=melodic
-[cmd-rosmsg]: http://wiki.ros.org/rosmsg?distro=melodic
-[cmd-rosbag]: http://wiki.ros.org/rosbag?distro=melodic
+[cmd-rosnode]: http://wiki.ros.org/rosnode?distro=noetic
+[cmd-rostopic]: http://wiki.ros.org/rostopic?distro=noetic
+[cmd-rosrun]: http://wiki.ros.org/rosbash?distro=noetic#rosrun
+[cmd-rosservice]: http://wiki.ros.org/rosservice?distro=noetic
+[cmd-rosmsg]: http://wiki.ros.org/rosmsg?distro=noetic
+[cmd-rosbag]: http://wiki.ros.org/rosbag?distro=noetic
 
 
