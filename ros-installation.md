@@ -22,10 +22,10 @@ VirtualBox: Works with Windows, Linux and Mac
 
 <details><summary>Installation:</summary>
 
-Steps:
-1. Download and install the VirtualBox 6.1.2 for your relevant platform from https://www.virtualbox.org/wiki/Downloads
-2. Install the extension to enable USB and other functionalities from https://download.virtualbox.org/virtualbox/6.1.2/Oracle_VM_VirtualBox_Extension_Pack-6.1.2.vbox-extpack
-3. In step 2, it will open up VirtualBox and ask permission to continue the installation. And continue to do so.
+Steps for installing Virtual Box 6.1.32 (as of Jan 2022):
+1. Download and install VirtualBox for your relevant platform from https://www.virtualbox.org/wiki/Downloads
+2. Install the extension to enable USB and other functionalities from https://download.virtualbox.org/virtualbox/6.1.32/Oracle_VM_VirtualBox_Extension_Pack-6.1.32.vbox-extpack
+3. In Step 2, it will open up VirtualBox and ask permission to continue the installation. Continue to do so.
 4. In VirtualBox, create a new VM for Ubuntu.
 5. Choose the guest OS architecture: (64-bit, Ubuntu)
 6. Select the amount of RAM (typically 50% of physical RAM)
@@ -73,7 +73,8 @@ Steps:
 ## Dual-boot
 
 ***WARNING*** 
-Make sure you have a current backup of your computer before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. And a reminder "Format" means to totally erase a disk.
+Make sure you have a current backup of your computer before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. 
+And a reminder "Format" means to totally erase a disk.
 
 <details><summary>Installation guide</summary>
   
@@ -83,9 +84,9 @@ Steps:
   
 </details>
 
-# Installing ROS Melodic
+# Installing ROS Noetic
 
-Once Ubuntu is installed. Follow the instructions to install "Desktop-Full Install" [on the ROS Wiki here](http://wiki.ros.org/melodic/Installation/Ubuntu):
+Once Ubuntu is installed. Follow the instructions to install "Desktop-Full Install" [on the ROS Wiki here](http://wiki.ros.org/noetic/Installation/Ubuntu):
 
 # Install Catkin Tools
 
