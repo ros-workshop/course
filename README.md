@@ -9,9 +9,8 @@
 To complete this workshop please arrive with:
 * A basic understanding of Ubuntu Linux
 * A basic understanding of Python and C++
-* A laptop running Ubuntu 18.04 and ROS Melodic
-  * Make sure you install 18.04/Melodic as other versions are unlikely to work
-  * Please follow the [installation instructions here][ros-installation]
+* A laptop running [Ubuntu 20.04](https://releases.ubuntu.com/20.04/) and [ROS `noetic`](http://wiki.ros.org/noetic)
+  * Please follow the [installation instructions here](./ros-installation.md)
   * Ask a mentor if you get stuck, and we'll be happy to help
 * Access to the Internet (you'll need to download 1-2 GB)
   * Ask a mentor for Wi-Fi access details
