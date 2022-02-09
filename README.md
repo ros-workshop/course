@@ -209,6 +209,5 @@ source devel/setup.bash
 
 [ros-cmakelists]: http://wiki.ros.org/catkin/CMakeLists.txt
 [ros-custom-msg]: http://wiki.ros.org/ROS/Tutorials/DefiningCustomMessages
-[ros-installation]: https://github.com/ros-workshop/course/blob/master/ros-installation.md
 [ros-tutorials]: http://wiki.ros.org/ROS/Tutorials
  
