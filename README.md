@@ -1,6 +1,6 @@
 <table><tr><td>
 
-![workshop-flyer](./images/ROS_Workshop_Perth_Flyer_2022.png)
+![workshop-flyer](./images/ROS_Workshop_Perth_Flyer_2022.jpg)
 
 </td></tr></table>
 
@@ -9,8 +9,10 @@
 To complete this workshop please arrive with:
 * A basic understanding of Ubuntu Linux
 * A basic understanding of Python and C++
-* A laptop running [Ubuntu 20.04](https://releases.ubuntu.com/20.04/) and [ROS `noetic`](http://wiki.ros.org/noetic)
-  * Please follow the [installation instructions here](./ros-installation.md)
+* A laptop running either:
+  * [Ubuntu 18.04](https://releases.ubuntu.com/18.04) and [ROS Melodic](http://wiki.ros.org/melodic) or 
+  * [Ubuntu 20.04](https://releases.ubuntu.com/20.04) and [ROS Noetic](http://wiki.ros.org/noetic)
+* Please follow the [installation instructions here](./ros-installation.md)
   * Ask a mentor if you get stuck, and we'll be happy to help
 * Access to the Internet (you'll need to download 1-2 GB)
   * Ask a mentor for Wi-Fi access details

@@ -1,3 +1,4 @@
 # Ignore Jetbrains and VSCode IDE files
 .idea
 .vscode
+workshop_ws
