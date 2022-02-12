@@ -4,7 +4,7 @@ There are many ways to run Ubuntu and ROS on your own computer, each with their 
 
 | Method        | ✅ Benefits  | ❌ Disadvantages |
 | ------------- | ------------- | ---------- |
-| 1. Bootable Ubuntu Live USB Stick  | ✅ Native performance, doesn't alter Windows partitions | ❌ Slower disk I/O, risk of USB being bumped and corrupted   |
+| 1. Ubuntu Live USB Stick  | ✅ Native performance, doesn't alter Windows partitions | ❌ Slower disk I/O, risk of USB being bumped and corrupted   |
 | 2. Wipe & Install | ✅ Native performance  | ❌ Erases all data           |
 | 3. Windows Dual Boot  | ✅ Native performance, can co-exist with Windows  | ❌ Dangerous: May erase your laptop   |
 | 4. Virtual Machine   | ✅ Easy to install | ❌ Much slower, may not handle 3D graphics or Gazebo simulations, requires more than 4 GB of RAM |
@@ -13,14 +13,14 @@ There are many ways to run Ubuntu and ROS on your own computer, each with their 
 Below are some rough guidelines for the various installation methods:
 
 
-### 1. Bootable Ubuntu Live USB Stick
+### 1. Ubuntu Live USB Stick
 
 An empty USB memory stick (>16 GB, USB 3.0) is required. There are plenty of tutorials on the Internet e.g. the official Ubuntu tutorial [here](https://ubuntu.com/tutorials/create-a-usb-stick-on-ubuntu). A nice alternative is [Ventoy](https://www.ventoy.net/en/index.html), which allows you to boot from any ISO copied to the USB memory stick. 
 
 
 ### 2. Wipe & Install	
 
-Follow the instructions above to create a Bootable Ubuntu Live USB Stick. Boot from the USB stick, select install and choose _"wipe"_ during the installation. 
+Follow the instructions above to create a Ubuntu Live USB Stick. Boot from the USB stick, select install and choose _"wipe"_ during the installation. 
 
 
 ### 3. Windows Dual Boot
@@ -66,12 +66,7 @@ Steps:
 
 ### 5. Docker
 
-Docker provides containerisation that allows different versions of Linux to run on a host with native performance. To run GUI programs such as `rviz` and `rqt`, the host's X.org server needs to be exposed to running Docker container. See [here](./ros-docker.md) for instructions on building a Docker image with ROS Noetic and NVIDIA Container Toolkit. 
-
-### Note: Requires a NVIDIA GPU
-
-
-[ros-docker.md](./ros-docker.md)
+Docker provides containerisation that allows different versions of Linux to run on a host with native performance. To run GUI programs such as `rviz` and `rqt`, the host's X.org server needs to be exposed to running Docker container. See [here](./ros-docker.md) for instructions on building a Docker image with ROS Noetic and NVIDIA Container Toolkit.
 
 # Installing ROS
 

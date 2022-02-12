@@ -12,13 +12,6 @@ This Dockerfile adds ROS Noetic Desktop to NVIDIA's image, i.e. it combines
 * [`nvidia/cudagl:11.4.2-base-ubuntu20.04`][dh-cudagl-2004] and 
 * [`osrf/ros:noetic-desktop-full`][dh-osrf-noetic-desktop]
 
-### Based on: 
-
-- https://hub.docker.com/r/nvidia/cudagl
-- https://gitlab.com/nvidia/container-images/cudagl
-- https://github.com/osrf/docker_images/blob/master/ros/noetic/ubuntu/focal/ros-core/Dockerfile 
-- https://roboticseabass.com/2021/04/21/docker-and-ros
-
 ## Instructions
 
 ### Build the `nvidia_ros` image from Dockerfile
@@ -57,7 +50,7 @@ root@hostname:/workshop_ws#
 
 Inside the Docker container, check NVIDIA device is mapped in, e.g.:
 
-```bash
+```
 nvidia-smi
 
 Wed Feb  9 10:37:39 2022       
@@ -79,7 +72,7 @@ roscore & rviz
 
 In a separate terminal on the host, list the running containers and remember the name/ID of your new container, e.g.:
 
-```bash
+```
 docker ps
 
 CONTAINER ID   IMAGE        COMMAND   CREATED          STATUS          PORTS     NAMES
@@ -90,9 +83,17 @@ aca9d38aafce   nvidia_ros   "bash"    2 minutes ago   Up 2 minutes             n
 
 For the example above:
 
-```bash
+```
 docker exec -it aca9d38aafce bash
 ```
+
+## References: 
+
+- https://roboticseabass.com/2021/04/21/docker-and-ros
+- https://hub.docker.com/r/nvidia/cudagl
+- https://gitlab.com/nvidia/container-images/cudagl
+- https://github.com/osrf/docker_images/blob/master/ros/noetic/ubuntu/focal/ros-core/Dockerfile 
+
 
 [dh-cudagl-2004]: https://gitlab.com/nvidia/container-images/cuda/blob/master/dist/11.4.2/ubuntu2004/base/Dockerfile
 [dh-osrf-noetic-desktop]: https://github.com/osrf/docker_images/blob/master/ros/noetic/ubuntu/focal/ros-core/Dockerfile
