@@ -66,12 +66,12 @@ Steps:
 
 ### 5. Docker
 
-Docker provides containerisation that allows different versions of Linux to run on a host with native performance. To run GUI programs such as `rviz` and `rqt`, the host's X.org server needs to be exposed to running Docker container. See [here](ros-docker) for instructions on building a Docker image with ROS Noetic and NVIDIA Container Toolkit. 
+Docker provides containerisation that allows different versions of Linux to run on a host with native performance. To run GUI programs such as `rviz` and `rqt`, the host's X.org server needs to be exposed to running Docker container. See [here](./ros-docker.md) for instructions on building a Docker image with ROS Noetic and NVIDIA Container Toolkit. 
 
 ### Note: Requires a NVIDIA GPU
 
 
-ros-docker.md
+[ros-docker.md](./ros-docker.md)
 
 # Installing ROS
 
