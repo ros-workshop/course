@@ -86,7 +86,7 @@ CONTAINER ID   IMAGE        COMMAND   CREATED          STATUS          PORTS    
 aca9d38aafce   nvidia_ros   "bash"    2 minutes ago   Up 2 minutes             nice_maxwell
 ```
 
-## Open another terminal in the running container
+### Open another terminal in the running container
 
 For the example above:
 
