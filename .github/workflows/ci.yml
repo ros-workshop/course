@@ -1,0 +1,44 @@
+name: Copy to ros-workshop.github.io
+on: 
+  push:
+    branches:
+      - main
+jobs:
+  copy_to_gh_pages:
+    runs-on: ubuntu-latest
+    concurrency: 
+      group: ci
+      cancel-in-progress: true
+    steps:
+      - name: Checkout this repo
+        uses: actions/checkout@v2
+        with:
+          path: source
+
+      - name: Checkout ros-workshop.github.io
+        uses: actions/checkout@v2
+        with:
+          repository: 'ros-workshop/ros-workshop.github.io'
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          path: target
+
+      - name: Clean and copy this repo over
+        shell: bash
+        run: |
+          TARGET=target/${{ github.event.repository.name }}
+          if [[ $TARGET == 'target/course' ]]; then
+            TARGET=target
+          fi
+          mkdir -p $TARGET
+          rm -Rf source/.git
+          cp -R source/* $TARGET/
+      - name: Commit and push to ros-workshop.github.io
+        shell: bash
+        run: |
+          cd target
+          date > generated.txt
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "generated"
+          git push
