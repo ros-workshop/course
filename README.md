@@ -1,8 +1,4 @@
-<table><tr><td>
-
 ![workshop-flyer](/images/ROS_Workshop_Perth_Flyer_2022.jpg)
-
-</td></tr></table>
 
 # Course Prerequisites
 
