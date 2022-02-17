@@ -1,6 +1,6 @@
 <table><tr><td>
 
-![workshop-flyer](./images/ROS_Workshop_Perth_Flyer_2022.jpg)
+![workshop-flyer](/images/ROS_Workshop_Perth_Flyer_2022.jpg)
 
 </td></tr></table>
 
@@ -199,11 +199,11 @@ source devel/setup.bash
 + How to integrate multiple ROS nodes together 
 + How to create a robot in a Gazebo world that finds and picks up as many cubes as it can
 
-[01-sensor-integration]: https://github.com/ros-workshop/sensor-integration
-[02-slam-navigation]: https://github.com/ros-workshop/slam-navigation
-[03-perception]: https://github.com/ros-workshop/perception
-[04-manipulation]: https://github.com/ros-workshop/manipulation
-[05-mopbility-plus-manipulation]: https://github.com/ros-workshop/mobility-plus-manipulation
+[01-sensor-integration]: ./sensor-integration
+[02-slam-navigation]: ./slam-navigation
+[03-perception]: ./perception
+[04-manipulation]: ./manipulation
+[05-mopbility-plus-manipulation]: ./mobility-plus-manipulation
 
 [catkin-tools]: https://catkin-tools.readthedocs.io/en/latest/installing.html
 [gh-git-flow]: https://guides.github.com/introduction/flow
