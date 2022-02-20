@@ -1,6 +1,6 @@
 # Installing Ubuntu & ROS
 
-## Installing Ubuntu & ROS
+## Installing Ubuntu
 
 There are many ways to run Ubuntu and ROS on your own computer, each with their own benefits and disadvantages:
 
@@ -8,9 +8,9 @@ There are many ways to run Ubuntu and ROS on your own computer, each with their 
 | ------------- | ------------- | ---------- |
 | 1. Ubuntu Live USB Stick  | ✅ Native performance, doesn't alter Windows partitions | ❌ Slower disk I/O, risk of USB being bumped and corrupted   |
 | 2. Wipe & Install | ✅ Native performance  | ❌ Erases all data           |
-| 3. Windows Dual Boot  | ✅ Native performance, can co-exist with Windows  | ❌ Dangerous: May erase your laptop   |
+| 3. Windows Dual Boot  | ✅ Native performance, can co-exist with Windows  | ❌ Installation error could wipe your laptop  |
 | 4. Virtual Machine   | ✅ Easy to install | ❌ Much slower, may not handle 3D graphics or Gazebo simulations, requires more than 4 GB of RAM |
-| 5. Docker   | ✅ Native performance, can run on any Linux, e.g. Ubuntu 21.10 | ❌ Requires NVIDIA GPU |
+| 5. Docker   | ✅ Native performance, can run on any Linux host, e.g. Ubuntu 21.10 | ❌ Complicated to set up |
 
 Below are some rough guidelines for the various installation methods:
 
