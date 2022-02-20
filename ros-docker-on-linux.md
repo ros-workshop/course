@@ -1,6 +1,10 @@
 # Docker image with ROS Noetic and NVIDIA Container Toolkit 
 
-### Note: Requires a NVIDIA GPU
+### Note: Requires a Linux host and a NVIDIA GPU
+
+See [here](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html) for the Linux distributions supported. 
+
+### Overview 
 
 NVIDIA provides the [`nvidia/cudagl:11.4.2-base-ubuntu20.04`][dh-cudagl-2004] image
 which 

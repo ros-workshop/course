@@ -1,4 +1,6 @@
-# Installing Ubuntu
+# Installing Ubuntu & ROS
+
+## Installing Ubuntu & ROS
 
 There are many ways to run Ubuntu and ROS on your own computer, each with their own benefits and disadvantages:
 
@@ -66,8 +68,8 @@ Steps:
 
 ### 5. Docker
 
-Docker provides containerisation that allows different versions of Linux to run on a host with native performance. To run GUI programs such as `rviz` and `rqt`, the host's X.org server needs to be exposed to running Docker container. See [here](./ros-docker.md) for instructions on building a Docker image with ROS Noetic and NVIDIA Container Toolkit.
+Docker provides containerisation that allows different versions of Linux to run on a host with native performance. To run GUI programs such as `rviz` and `rqt`, the host's X.org server needs to be exposed to running Docker container. See [here](./ros-docker-on-linux.md) for instructions on building a Docker image with ROS Noetic and NVIDIA Container Toolkit. Note these instructions are for Docker on a Linux host. 
 
-# Installing ROS
+## Installing ROS
 
 Once you have Ubuntu installed, follow the instructions for "Desktop - Full Install" on the ROS Wiki [here](http://wiki.ros.org/noetic/Installation/Ubuntu). Once you've installed ROS, you should install Catkin tools with `sudo apt-get install python3-catkin-tools`.

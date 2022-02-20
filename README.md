@@ -14,15 +14,14 @@ To complete this workshop please arrive with:
   * Ask a mentor for Wi-Fi access details
 * Access to this GitHub repository (consider [adding a SSH key][gh-ssh-keys])
  
-**Note**: While any IDE can be used for this course, we recommend the use of VSCode (https://code.visualstudio.com/)
+**Note**: While any development environment can be used for this course, for beginners we recommend the free [VSCode](https://code.visualstudio.com/) source code editor.
 
 # Contributions
 
 This course material has been developed in our spare time. 
 As you work through the workshop, please consider contributing any suggestions/edits back -- it's easy! 
 
-You can either edit directly on https://github.com/ros-workshop, or on a branch in your locally cloned copy. 
-Do a Pull Request (PR) when you're ready for us to review. For the full process, read up on [“Git Flow” here][gh-git-flow].
+Please fork the repository you want to update and do a “pull request“ (PR) when you're ready for us to review. For the full process, read up on “Git Flow” [here][gh-git-flow].
 
 # Part 1: ROS Basics
 
@@ -104,7 +103,7 @@ The second part of this workshop consists of four application areas that are wor
 * **Thursday**: [Manipulation][04-manipulation]
 
 The fifth day (Friday) integrates these application areas to build a simulated robot that can navigate its environment, finding and picking up cubes:
-* **Friday**: [Mobility Plus Manipulation][05-mopbility-plus-manipulation]
+* **Friday**: [Mobility Plus Manipulation][05-mobility-plus-manipulation]
 
 ### Workspace Setup
 
@@ -190,16 +189,16 @@ source devel/setup.bash
 + Using the Moveit class in a node
 + Creating a OctoMap using a depth camera
 
-## Friday: [Mobility Plus Manipulation][05-mopbility-plus-manipulation]
+## Friday: [Mobility Plus Manipulation][05-mobility-plus-manipulation]
 **Topics**:
 + How to integrate multiple ROS nodes together 
 + How to create a robot in a Gazebo world that finds and picks up as many cubes as it can
 
-[01-sensor-integration]: ./sensor-integration
-[02-slam-navigation]: ./slam-navigation
-[03-perception]: ./perception
-[04-manipulation]: ./manipulation
-[05-mopbility-plus-manipulation]: ./mobility-plus-manipulation
+[01-sensor-integration]: https://github.com/ros-workshop/sensor-integration
+[02-slam-navigation]: https://github.com/ros-workshop/slam-navigation
+[03-perception]: https://github.com/ros-workshop/perception
+[04-manipulation]: https://github.com/ros-workshop/manipulation
+[05-mobility-plus-manipulation]: https://github.com/ros-workshop/mobility-plus-manipulation
 
 [catkin-tools]: https://catkin-tools.readthedocs.io/en/latest/installing.html
 [gh-git-flow]: https://guides.github.com/introduction/flow
