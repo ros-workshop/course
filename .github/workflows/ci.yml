@@ -28,7 +28,6 @@ jobs:
           TARGET=target/${{ github.event.repository.name }}
           rm -Rf $TARGET
           mkdir -p $TARGET
-          rm -Rf source/.git
           cp -R source/* $TARGET/
       - name: Commit and push to ros-workshop.github.io
         shell: bash
