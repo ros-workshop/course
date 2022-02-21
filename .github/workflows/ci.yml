@@ -26,9 +26,6 @@ jobs:
         shell: bash
         run: |
           TARGET=target/${{ github.event.repository.name }}
-          if [[ $TARGET == 'target/course' ]]; then
-            TARGET=target
-          fi
           mkdir -p $TARGET
           rm -Rf source/.git
           cp -R source/* $TARGET/
