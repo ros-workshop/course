@@ -26,6 +26,7 @@ jobs:
         shell: bash
         run: |
           TARGET=target/${{ github.event.repository.name }}
+          rm -Rf $TARGET
           mkdir -p $TARGET
           rm -Rf source/.git
           cp -R source/* $TARGET/
