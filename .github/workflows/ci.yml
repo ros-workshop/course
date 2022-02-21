@@ -22,13 +22,21 @@ jobs:
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           path: target
 
-      - name: Clean and copy this repo over
+      - name: Retarget github.com URLs
+        shell: bash
+        run: |
+          cd source
+          find . -type f -name "*.md" -exec sed -i 's/https:\/\/github.com\/ros-workshop//g' {} +
+          cd ..
+
+      - name: Copy this repo over
         shell: bash
         run: |
           TARGET=target/${{ github.event.repository.name }}
           rm -Rf $TARGET
           mkdir -p $TARGET
           cp -R source/* $TARGET/
+
       - name: Commit and push to ros-workshop.github.io
         shell: bash
         run: |
