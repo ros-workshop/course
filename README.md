@@ -1,6 +1,6 @@
-![workshop-flyer](/images/ROS_Workshop_Perth_Flyer_2022.jpg)
+# Course
 
-# Course Prerequisites
+## Course Prerequisites
 
 To complete this workshop please arrive with:
 * A basic understanding of Ubuntu Linux
@@ -16,23 +16,22 @@ To complete this workshop please arrive with:
  
 **Note**: While any development environment can be used for this course, for beginners we recommend the free [VSCode](https://code.visualstudio.com/) source code editor.
 
-# Contributions
+## Contributions
 
 This course material has been developed in our spare time. 
-As you work through the workshop, please consider contributing any suggestions/edits back -- it's easy! 
-
+As you work through the workshop, please consider contributing any suggestions or edits back -- it's easy! 
 Please fork the repository you want to update and do a “pull request“ (PR) when you're ready for us to review. For the full process, read up on “Git Flow” [here][gh-git-flow].
 
-# Part 1: ROS Basics
+## Part 1: ROS Basics
 
-## Review the [Presentation Notes](./ros-introduction.md)
+### Review the [Presentation Notes](./ros-introduction.md)
 Topics:
 + Filesystem Architecture
 + Computational Graph
 + Community
 + References
 
-## Complete the [ROS Beginners Tutorials][ros-tutorials]
+### Complete the [ROS Beginners Tutorials][ros-tutorials]
 Topics:
 + Directory structures for Catkin workspaces 
 + Creating packages
@@ -46,7 +45,7 @@ Topics:
 + Using `rviz`
 + Using `roslaunch` 
 
-## Complete the [ROS Intermediate Tutorials][ros-tutorials]
+### Complete the [ROS Intermediate Tutorials][ros-tutorials]
 Topics:
 + Creating a new package by hand
 + Managing dependencies
@@ -94,7 +93,7 @@ Make sure you can answer these questions before proceeding:
 * Often packages cannot be installed with `sudo apt-get install` as they might not have a `rosdep` key! If this is the case, clone the package manually and build within your workspace
 * If `rosrun` does not find your package, use `--force-discover`
 
-# Part 2: ROS Application Areas
+## Part 2: ROS Application Areas
 
 The second part of this workshop consists of four application areas that are worked on over four days. The workshop material is cloned from these repositories:
 * **Monday**: [Sensor Integration and URDFs][01-sensor-integration]
@@ -105,7 +104,7 @@ The second part of this workshop consists of four application areas that are wor
 The fifth day (Friday) integrates these application areas to build a simulated robot that can navigate its environment, finding and picking up cubes:
 * **Friday**: [Mobility Plus Manipulation][05-mobility-plus-manipulation]
 
-### Workspace Setup
+#### Workspace Setup
 
 Across these five days, you will incrementally build a `catkin` workspace called ```workshop_ws```. Each day will build on the previous, so make sure you end each day with a working solution! 
 
@@ -118,7 +117,7 @@ cd ~/workshop_ws/src
 
 </details>
 
-### Git Clone
+#### Git Clone
 
 For each day, clone the repository linked below into the
 `src/` directory of the workspace `workshop_ws`. 
@@ -139,7 +138,7 @@ git clone git@github.com:ros-workshop/sensor-integration.git
 
 </details>
 
-### Catkin Build
+#### Catkin Build
 
 Build and then source the workspace. 
 
@@ -158,8 +157,7 @@ source devel/setup.bash
 </details>
 
 
-
-## Monday: [Sensor Integration and URDFs][01-sensor-integration]
+### Monday: [Sensor Integration and URDFs][01-sensor-integration]
 **Topics**:
 + Creating a URDF
 + Visualising your robot
@@ -168,28 +166,28 @@ source devel/setup.bash
 + Controlling a simulated robot
 + Detecting an obstacle and stopping the robot
 
-## Tuesday: [SLAM & Navigation][02-slam-navigation]
+### Tuesday: [SLAM & Navigation][02-slam-navigation]
 **Topics**:
 + Creating a map using a lidar
 + Simultaneous Localisation and Mapping (SLAM)
 + Using move_base for navigation
 + Finding an object by navigating around a map
 
-## Wednesday: [Perception][03-perception]
+### Wednesday: [Perception][03-perception]
 **Topics**:
 + Using a camera to detect Apriltags
 + Using a real camera with ROS
 + Camera calibration
 + Fusing lidar and camera/DNN data for person detection and localisation
 
-## Thursday: [Manipulation][04-manipulation]
+### Thursday: [Manipulation][04-manipulation]
 **Topics**:
 + Creating a Moveit configuration package
 + Moving Your robot in `rviz`
 + Using the Moveit class in a node
 + Creating a OctoMap using a depth camera
 
-## Friday: [Mobility Plus Manipulation][05-mobility-plus-manipulation]
+### Friday: [Mobility Plus Manipulation][05-mobility-plus-manipulation]
 **Topics**:
 + How to integrate multiple ROS nodes together 
 + How to create a robot in a Gazebo world that finds and picks up as many cubes as it can
