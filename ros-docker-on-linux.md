@@ -27,6 +27,22 @@ cd course
 docker build -t nvidia_ros .
 ```
 
+### Check your `xhost` config
+
+Ensure non-network local connections are enabled for `xhost`
+- If `xhost` returns the following results for your user (`$USER`)
+
+    ```
+    access control enabled, only authorized clients can connect
+    SI:localuser:$USER
+    ```
+- Run `xhost +local:*` to update to the correct settings
+    ```
+    access control enabled, only authorized clients can connect
+    LOCAL:
+    SI:localuser:$USER
+    ```
+
 ### Start a `nvidia_ros` container with `workshop_ws` mounted
 
 ```bash
