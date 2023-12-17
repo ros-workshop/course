@@ -1,8 +1,8 @@
-# ROS Noetic on Ubuntu for Windows 11 using WSL2 
+# ROS Noetic on Ubuntu (Ubuntu 20.04.6 LTS) for Windows 11 using WSL2 
 
 ### Note: Requires Windows 11, WSL2, WSLg and GPU Drivers
 
-### Install WSL2 and Ubuntu
+### Install WSL2 and Ubuntu (Ubuntu 20.04.6 LTS)
 Follow the instructions given [here](https://ubuntu.com/tutorials/install-ubuntu-on-wsl2-on-windows-10#1-overview).  
 You only need to complete up to (and including) **Step 4 - Configure Ubuntu**.
 
