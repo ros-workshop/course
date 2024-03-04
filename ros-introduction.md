@@ -18,24 +18,26 @@ Consists of concepts which tell how a ROS system is formed, including its
 folder structure and the minimum number of files it needs to work with.
 
 ![ROS_Filesystem](./images/ROS_Filesystem_Architecture.drawio.png)
-
-- **Useful Commands** : 
-  * [`ros2`][cmd-ros2]: CLI tool that performs common ROS 2 actions. <br>
-    https://github.com/ubuntu-robotics/ros2_cheats_sheet/blob/master/cli/cli_cheats_sheet.pdf
-  * [`colcon`][cmd-colcon]: CLI tool used for building and testing ROS workspaces (supersedes `catkin`). <br>
-    https://github.com/ubuntu-robotics/ros2_cheats_sheet/blob/master/colcon/colcon_cheats_sheet.pdf
-- **More information**: https://docs.ros.org/en/humble/The-ROS2-Project/Contributing/Developer-Guide.html#filesystem-layout
+#### **More information**
+* Tutorial for setting up a workspace: https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html
+* Recommendations for a filesystem layout: https://docs.ros.org/en/humble/The-ROS2-Project/Contributing/Developer-Guide.html#filesystem-layout
+  
 
 ### Computational Graph
 
-Provides information about how various components in a ROS project come
-together to perform an action. Primarily, this level tells us how ROS sets up
-and handles the communication between various processes.
+Provides information about how various components in a ROS project come together to perform an action. 
+Primarily, this level tells us how ROS sets up and handles the communication between various processes.
 
 ![ROS Computational Graph](./images/ROS_Computational_Graph.drawio.png)
 
-- **Useful Commands** : [`roscore`][cmd-roscore], [`rosnode`][cmd-rosnode], [`rostopic`][cmd-rostopic], [`rosrun`][cmd-rosrun], [`rosservice`][cmd-rosservice], [`rosmsg`][cmd-rosmsg], [`rosbag`][cmd-rosbag]
-- **More information**: http://wiki.ros.org/ROS/Concepts#ROS_Computation_Graph_Level
+#### More information
+  * http://wiki.ros.org/ROS/Concepts#ROS_Computation_Graph_Level
+
+### Useful Commands
+* [`ros2`][cmd-ros2]: CLI tool that performs common ROS 2 actions. <br>
+https://github.com/ubuntu-robotics/ros2_cheats_sheet/blob/master/cli/cli_cheats_sheet.pdf
+* [`colcon`][cmd-colcon]: CLI tool used for building and testing ROS workspaces (supersedes `catkin`). <br>
+https://github.com/ubuntu-robotics/ros2_cheats_sheet/blob/master/colcon/colcon_cheats_sheet.pdf
 
 ### Community
 
@@ -64,13 +66,3 @@ ROS community to contribute via documentation updates, tutorials, etc. (http://w
 
 [cmd-ros2]: https://github.com/ros2/ros2cli/tree/humble
 [cmd-colcon]: https://github.com/colcon/colcon-core
-
-[cmd-roscore]: http://wiki.ros.org/roscore
-[cmd-rosnode]: http://wiki.ros.org/rosnode?distro=noetic
-[cmd-rostopic]: http://wiki.ros.org/rostopic?distro=noetic
-[cmd-rosrun]: http://wiki.ros.org/rosbash?distro=noetic#rosrun
-[cmd-rosservice]: http://wiki.ros.org/rosservice?distro=noetic
-[cmd-rosmsg]: http://wiki.ros.org/rosmsg?distro=noetic
-[cmd-rosbag]: http://wiki.ros.org/rosbag?distro=noetic
-
-
