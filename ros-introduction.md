@@ -31,7 +31,14 @@ Primarily, this level tells us how ROS sets up and handles the communication bet
 ![ROS Computational Graph](./images/ROS_Computational_Graph.drawio.png)
 
 #### More information
-  * http://wiki.ros.org/ROS/Concepts#ROS_Computation_Graph_Level
+* Understanding **nodes**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
+* Understanding **topics**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
+* Understanding **services**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
+* Understanding **messages**: https://docs.ros.org/en/humble/Concepts/Basic/About-Interfaces.html#messages
+* Understanding **parameters**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html
+* Understanding **actions**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
+* Recording and reading from **bag** files: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html
+
 
 ### Useful Commands
 * [`ros2`][cmd-ros2]: CLI tool that performs common ROS 2 actions. <br>
