@@ -4,10 +4,12 @@
 
 To complete this workshop please arrive with:
 * A basic understanding of Ubuntu Linux
-* A basic understanding of Python and C++
+* A basic understanding of Python and/or C++
 * A laptop running either:
-  * [Ubuntu 18.04](https://releases.ubuntu.com/18.04) and [ROS Melodic](http://wiki.ros.org/melodic) or 
-  * [Ubuntu 20.04](https://releases.ubuntu.com/20.04) and [ROS Noetic](http://wiki.ros.org/noetic)
+  * [ROS2 Humble](https://docs.ros.org/en/humble/index.html) on [Ubuntu 22.04](https://releases.ubuntu.com/22.04)
+  * [ROS1 Noetic](http://wiki.ros.org/noetic) on [Ubuntu 20.04](https://releases.ubuntu.com/20.04)
+  
+  
 * Please follow the [installation instructions here](./ros-installation.md)
   * Ask a mentor if you get stuck, and we'll be happy to help
 * Access to the Internet (you'll need to download 1-2 GB)
