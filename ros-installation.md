@@ -29,7 +29,7 @@ Follow the instructions above to create a Ubuntu Live USB Stick. Boot from the U
 
 ***WARNING*** Make sure you have a backup of your computer before attempting any dual-boot installations as it is very easy to accidentally damage or delete all data on your laptop. 
 
-There are plenty of tutorials on the internet, e.g. [here](https://medium.com/linuxforeveryone/how-to-install-ubuntu-20-04-and-dual-boot-alongside-windows-10-323a85271a73).  
+There are plenty of tutorials on the internet, e.g. [here](https://www.linuxtechi.com/dual-boot-ubuntu-22-04-and-windows-11/).  
 
 Summary: Boot from an Ubuntu Live USB Stick, select install and choose _"Install Ubuntu alongside Windows Boot Manager”_. 
 
@@ -40,9 +40,9 @@ There are many Virtual Machines solutions, such as [VirtualBox](https://www.virt
 
 <details><summary>VirtualBox Installation</summary>
 
-Steps for installing Virtual Box 6.1.32 (as of Jan 2022):
+Steps for installing Virtual Box 7.0.14 (as of Mar 2024):
 1. Download and install VirtualBox for your relevant platform from https://www.virtualbox.org/wiki/Downloads
-2. Install the extension to enable USB and other functionalities from https://download.virtualbox.org/virtualbox/6.1.32/Oracle_VM_VirtualBox_Extension_Pack-6.1.32.vbox-extpack
+2. Install the extension to enable USB and other functionalities from https://download.virtualbox.org/virtualbox/7.0.14/Oracle_VM_VirtualBox_Extension_Pack-7.0.14.vbox-extpack
 3. In Step 2, it will open up VirtualBox and ask permission to continue the installation. Continue to do so.
 4. In VirtualBox, create a new VM for Ubuntu.
 5. Choose the guest OS architecture: (64-bit, Ubuntu)
@@ -72,4 +72,4 @@ Docker provides containerisation that allows different versions of Linux to run 
 
 ## Installing ROS
 
-Once you have Ubuntu installed, follow the instructions for "Desktop - Full Install" on the ROS Wiki [here](http://wiki.ros.org/noetic/Installation/Ubuntu). Once you've installed ROS, you should install Catkin tools with `sudo apt-get install python3-catkin-tools`.
+Once you have Ubuntu installed, follow the instructions for "Desktop - Full Install" on the ROS 2 Wiki [here](https://docs.ros.org/en/humble/Installation/Alternatives/Ubuntu-Install-Binary.html). 
