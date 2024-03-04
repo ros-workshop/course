@@ -29,7 +29,7 @@ Topics:
 + Community
 + References
 
-### Complete the [ROS Beginners Tutorials][ros-tutorials]
+### Complete the [ROS Beginners Tutorials][ros-tutorials-beginner]
 Topics:
 + Directory structures for Catkin workspaces 
 + Creating packages
@@ -43,7 +43,7 @@ Topics:
 + Using `rviz`
 + Using `roslaunch` 
 
-### Complete the [ROS Intermediate Tutorials][ros-tutorials]
+### Complete the [ROS Intermediate Tutorials][ros-tutorials-intermediate]
 Topics:
 + Creating a new package by hand
 + Managing dependencies
@@ -202,4 +202,5 @@ source devel/setup.bash
 
 [ros-cmakelists]: http://wiki.ros.org/catkin/CMakeLists.txt
 [ros-custom-msg]: http://wiki.ros.org/ROS/Tutorials/DefiningCustomMessages
-[ros-tutorials]: http://wiki.ros.org/ROS/Tutorials
+[ros-tutorials-beginner]: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools.html
+[ros-tutorials-intermediate]: https://docs.ros.org/en/humble/Tutorials/Intermediate.html
