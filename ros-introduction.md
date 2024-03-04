@@ -28,7 +28,7 @@ Provides information about how various components in a ROS project come
 together to perform an action. Primarily, this level tells us how ROS sets up
 and handles the communication between various processes.
 
-![ROS Computational Graph](./images/ROS_Computational_Graph.png)
+![ROS Computational Graph](./images/ROS_Computational_Graph.drawio.png)
 
 - **Useful Commands** : [`roscore`][cmd-roscore], [`rosnode`][cmd-rosnode], [`rostopic`][cmd-rostopic], [`rosrun`][cmd-rosrun], [`rosservice`][cmd-rosservice], [`rosmsg`][cmd-rosmsg], [`rosbag`][cmd-rosbag]
 - **More information**: http://wiki.ros.org/ROS/Concepts#ROS_Computation_Graph_Level
