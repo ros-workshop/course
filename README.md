@@ -5,11 +5,7 @@
 To complete this workshop please arrive with:
 * A basic understanding of Ubuntu Linux
 * A basic understanding of Python and/or C++
-* A laptop running either:
-  * [ROS2 Humble](https://docs.ros.org/en/humble/index.html) on [Ubuntu 22.04](https://releases.ubuntu.com/22.04)
-  * [ROS1 Noetic](http://wiki.ros.org/noetic) on [Ubuntu 20.04](https://releases.ubuntu.com/20.04)
-  
-  
+* A laptop running the ROS 2 distro [Humble](https://docs.ros.org/en/humble/index.html)
 * Please follow the [installation instructions here](./ros-installation.md)
   * Ask a mentor if you get stuck, and we'll be happy to help
 * Access to the Internet (you'll need to download 1-2 GB)
