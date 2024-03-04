@@ -17,7 +17,7 @@ Let's have a brief look at each of these levels.
 Consists of concepts which tell how a ROS system is formed, including its
 folder structure and the minimum number of files it needs to work with.
 
-![ROS_Filesystem](./images/ROS_Filesystem_Architecture.png)
+![ROS_Filesystem](./images/ROS_Filesystem_Architecture.drawio.png)
 
 - **Useful Commands** : [`rospack`][cmd-rospack], [`catkin_create_pkg`][cmd-catkin_create_pkg], [`catkin build`][cmd-catkin-build], [`rosdep`][cmd-rosdep], [`roscd`][cmd-roscd], [`rosed`][cmd-rosed], [`roscp`][cmd-roscp], [`rosd`][cmd-rosd], [`rosls`][cmd-rosls]
 - **More information**: http://wiki.ros.org/ROS/Concepts#ROS_Filesystem_Level
