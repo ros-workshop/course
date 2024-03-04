@@ -17,21 +17,34 @@ Let's have a brief look at each of these levels.
 Consists of concepts which tell how a ROS system is formed, including its
 folder structure and the minimum number of files it needs to work with.
 
-![ROS_Filesystem](./images/ROS_Filesystem_Architecture.png)
-
-- **Useful Commands** : [`rospack`][cmd-rospack], [`catkin_create_pkg`][cmd-catkin_create_pkg], [`catkin build`][cmd-catkin-build], [`rosdep`][cmd-rosdep], [`roscd`][cmd-roscd], [`rosed`][cmd-rosed], [`roscp`][cmd-roscp], [`rosd`][cmd-rosd], [`rosls`][cmd-rosls]
-- **More information**: http://wiki.ros.org/ROS/Concepts#ROS_Filesystem_Level
+![ROS_Filesystem](./images/ROS_Filesystem_Architecture.drawio.png)
+#### **More information**
+* Tutorial for setting up a workspace: https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Creating-A-Workspace/Creating-A-Workspace.html
+* Recommendations for a filesystem layout: https://docs.ros.org/en/humble/The-ROS2-Project/Contributing/Developer-Guide.html#filesystem-layout
+  
 
 ### Computational Graph
 
-Provides information about how various components in a ROS project come
-together to perform an action. Primarily, this level tells us how ROS sets up
-and handles the communication between various processes.
+Provides information about how various components in a ROS project come together to perform an action. 
+Primarily, this level tells us how ROS sets up and handles the communication between various processes.
 
-![ROS Computational Graph](./images/ROS_Computational_Graph.png)
+![ROS Computational Graph](./images/ROS_Computational_Graph.drawio.png)
 
-- **Useful Commands** : [`roscore`][cmd-roscore], [`rosnode`][cmd-rosnode], [`rostopic`][cmd-rostopic], [`rosrun`][cmd-rosrun], [`rosservice`][cmd-rosservice], [`rosmsg`][cmd-rosmsg], [`rosbag`][cmd-rosbag]
-- **More information**: http://wiki.ros.org/ROS/Concepts#ROS_Computation_Graph_Level
+#### More information
+* Understanding **nodes**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html
+* Understanding **topics**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Topics/Understanding-ROS2-Topics.html
+* Understanding **services**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Services/Understanding-ROS2-Services.html
+* Understanding **messages**: https://docs.ros.org/en/humble/Concepts/Basic/About-Interfaces.html#messages
+* Understanding **parameters**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Parameters/Understanding-ROS2-Parameters.html
+* Understanding **actions**: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Actions/Understanding-ROS2-Actions.html
+* Recording and reading from **bag** files: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Recording-And-Playing-Back-Data/Recording-And-Playing-Back-Data.html
+
+
+### Useful Commands
+* [`ros2`][cmd-ros2]: CLI tool that performs common ROS 2 actions. <br>
+https://github.com/ubuntu-robotics/ros2_cheats_sheet/blob/master/cli/cli_cheats_sheet.pdf
+* [`colcon`][cmd-colcon]: CLI tool used for building and testing ROS workspaces (supersedes `catkin`). <br>
+https://github.com/ubuntu-robotics/ros2_cheats_sheet/blob/master/colcon/colcon_cheats_sheet.pdf
 
 ### Community
 
@@ -58,22 +71,5 @@ ROS community to contribute via documentation updates, tutorials, etc. (http://w
     - James Madison University Robotics Lab : [ROS Kinetic Cheatsheet](https://w3.cs.jmu.edu/spragunr/CS354/handouts/ROSCheatsheet.pdf)
 
 
-[cmd-rospack]: http://wiki.ros.org/rospack?distro=noetic
-[cmd-catkin_create_pkg]: http://wiki.ros.org/catkin/commands/catkin_create_pkg
-[cmd-catkin-build]: https://catkin-tools.readthedocs.io/en/latest/installing.html 
-[cmd-rosdep]: http://wiki.ros.org/rosdep
-[cmd-roscd]: http://wiki.ros.org/rosbash?distro=noetic#roscd
-[cmd-rosed]: http://wiki.ros.org/rosbash?distro=noetic#rosed
-[cmd-roscp]: http://wiki.ros.org/rosbash?distro=noetic#roscp
-[cmd-rosd]: http://wiki.ros.org/rosbash?distro=noetic#rosd
-[cmd-rosls]: http://wiki.ros.org/rosbash?distro=noetic#rosls
-
-[cmd-roscore]: http://wiki.ros.org/roscore
-[cmd-rosnode]: http://wiki.ros.org/rosnode?distro=noetic
-[cmd-rostopic]: http://wiki.ros.org/rostopic?distro=noetic
-[cmd-rosrun]: http://wiki.ros.org/rosbash?distro=noetic#rosrun
-[cmd-rosservice]: http://wiki.ros.org/rosservice?distro=noetic
-[cmd-rosmsg]: http://wiki.ros.org/rosmsg?distro=noetic
-[cmd-rosbag]: http://wiki.ros.org/rosbag?distro=noetic
-
-
+[cmd-ros2]: https://github.com/ros2/ros2cli/tree/humble
+[cmd-colcon]: https://github.com/colcon/colcon-core

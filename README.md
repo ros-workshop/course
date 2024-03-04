@@ -4,10 +4,8 @@
 
 To complete this workshop please arrive with:
 * A basic understanding of Ubuntu Linux
-* A basic understanding of Python and C++
-* A laptop running either:
-  * [Ubuntu 18.04](https://releases.ubuntu.com/18.04) and [ROS Melodic](http://wiki.ros.org/melodic) or 
-  * [Ubuntu 20.04](https://releases.ubuntu.com/20.04) and [ROS Noetic](http://wiki.ros.org/noetic)
+* A basic understanding of Python and/or C++
+* A laptop running the ROS 2 distro [Humble](https://docs.ros.org/en/humble/index.html)
 * Please follow the [installation instructions here](./ros-installation.md)
   * Ask a mentor if you get stuck, and we'll be happy to help
 * Access to the Internet (you'll need to download 1-2 GB)
@@ -31,7 +29,7 @@ Topics:
 + Community
 + References
 
-### Complete the [ROS Beginners Tutorials][ros-tutorials]
+### Complete the [ROS Beginners Tutorials][ros-tutorials-beginner]
 Topics:
 + Directory structures for Catkin workspaces 
 + Creating packages
@@ -45,7 +43,7 @@ Topics:
 + Using `rviz`
 + Using `roslaunch` 
 
-### Complete the [ROS Intermediate Tutorials][ros-tutorials]
+### Complete the [ROS Intermediate Tutorials][ros-tutorials-intermediate]
 Topics:
 + Creating a new package by hand
 + Managing dependencies
@@ -204,4 +202,5 @@ source devel/setup.bash
 
 [ros-cmakelists]: http://wiki.ros.org/catkin/CMakeLists.txt
 [ros-custom-msg]: http://wiki.ros.org/ROS/Tutorials/DefiningCustomMessages
-[ros-tutorials]: http://wiki.ros.org/ROS/Tutorials
+[ros-tutorials-beginner]: https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools.html
+[ros-tutorials-intermediate]: https://docs.ros.org/en/humble/Tutorials/Intermediate.html
